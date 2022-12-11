@@ -1,0 +1,14 @@
+{
+    "name": "@dataloop/icons",
+    "version": "1.0.77",
+    "description": "The icons repo of DataLoop",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:dataloop-ai/icons.git"
+    },
+    "keywords": [],
+    "author": "fadi@dataloop.ai",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/dataloop-ai/icons#readme"
+  }
+  
