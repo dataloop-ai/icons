@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?2qcaaf');
-  src:  url('fonts/dl-icons.eot?2qcaaf#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?2qcaaf') format('truetype'),
-    url('fonts/dl-icons.woff?2qcaaf') format('woff'),
-    url('fonts/dl-icons.svg?2qcaaf#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?9hzpkt');
+  src:  url('fonts/dl-icons.eot?9hzpkt#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?9hzpkt') format('truetype'),
+    url('fonts/dl-icons.woff?9hzpkt') format('woff'),
+    url('fonts/dl-icons.svg?9hzpkt#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -980,10 +980,10 @@
 .icon-dl-train:before {
   content: "\e9d2";
 }
-.icon-dl-models-managment-filled:before {
+.icon-dl-models-management-filled:before {
   content: "\e9d3";
 }
-.icon-dl-models-managment:before {
+.icon-dl-models-management:before {
   content: "\e9d4";
 }
 .icon-dl-hub-filled:before {
@@ -1466,10 +1466,10 @@
 .icon-dl-cloud-storage-filled:before {
   content: "\ea74";
 }
-.icon-dl-data-managment:before {
+.icon-dl-data-management:before {
   content: "\ea75";
 }
-.icon-dl-data-managment-filled:before {
+.icon-dl-data-management-filled:before {
   content: "\ea76";
 }
 .icon-dl-overview:before {
