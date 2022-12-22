@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # cleans all svg file names
-./cleanSVGFileNames.sh
+./cleanup.sh
 
 sleep 0.5
 git add .
