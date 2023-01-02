@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?x5r851');
-  src:  url('fonts/dl-icons.eot?x5r851#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?x5r851') format('truetype'),
-    url('fonts/dl-icons.woff?x5r851') format('woff'),
-    url('fonts/dl-icons.svg?x5r851#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?avdm1y');
+  src:  url('fonts/dl-icons.eot?avdm1y#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?avdm1y') format('truetype'),
+    url('fonts/dl-icons.woff?avdm1y') format('woff'),
+    url('fonts/dl-icons.svg?avdm1y#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -470,10 +470,10 @@
 .icon-dl-data-browser:before {
   content: "\e978";
 }
-.icon-dl-data-managment-filled:before {
+.icon-dl-data-management-filled:before {
   content: "\e979";
 }
-.icon-dl-data-managment:before {
+.icon-dl-data-management:before {
   content: "\e97a";
 }
 .icon-dl-data-science:before {
@@ -1274,10 +1274,10 @@
 .icon-dl-minus:before {
   content: "\ea42";
 }
-.icon-dl-models-managment-filled:before {
+.icon-dl-models-management-filled:before {
   content: "\ea43";
 }
-.icon-dl-models-managment:before {
+.icon-dl-models-management:before {
   content: "\ea44";
 }
 .icon-dl-models:before {
