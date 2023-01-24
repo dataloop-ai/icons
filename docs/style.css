@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?ozw57r');
-  src:  url('fonts/dl-icons.eot?ozw57r#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?ozw57r') format('truetype'),
-    url('fonts/dl-icons.woff?ozw57r') format('woff'),
-    url('fonts/dl-icons.svg?ozw57r#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?510t68');
+  src:  url('fonts/dl-icons.eot?510t68#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?510t68') format('truetype'),
+    url('fonts/dl-icons.woff?510t68') format('woff'),
+    url('fonts/dl-icons.svg?510t68#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-dl-related-filled:before {
+  content: "\ead4";
+}
 .icon-dl-integration:before {
   content: "\ead1";
 }
