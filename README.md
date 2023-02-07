@@ -4,6 +4,12 @@ This is a Dataloop created icon pack.
 
 It contains both SVG files and font files generated using [Icomoon](https://icomoon.io/) tool
 
+## How to install
+
+Our icons pack can be found in the [public NPM registry](https://www.npmjs.com/package/@dataloop-ai/icons) and can be installed with the following command:
+```npm
+npm i @dataloop-ai/icons
+```
 
 ## How to use Icons in the code
 
