@@ -24,8 +24,12 @@ export default defineComponent({
     setup(props) {
         const iconNames = ref<string[]>([])
         onMounted(async () => {
-            const iconsModule: any = await import.meta
-                .glob('../../style.css')['../../style.css']()
+            const styleModule: any = await import.meta
+                .glob('../../style.css')
+            const modules = Object.values(styleModule)
+            console.log(styleModule, modules)
+            const iconsModuleImport = modules[0] as any
+            const iconsModule = await iconsModuleImport()
             const styleText = iconsModule.default
             const regex = new RegExp(/(\..*\:before)/g)
             const split = styleText.split('\n')
