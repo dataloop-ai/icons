@@ -28,6 +28,6 @@ jobs:
             const response = await github.repos.createDispatchEvent({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              event_type: 'publish-components'
+              event_type: 'build-docs'
             });
             console.log(response);
