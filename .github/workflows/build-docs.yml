@@ -1,0 +1,40 @@
+name: Build Docs and push
+
+on:
+  repository_dispatch:
+    types: [build-docs]
+
+permissions: write-all
+
+jobs:
+  bump-version:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: main
+          token: ${{ secrets.CICD_TOKEN }}
+  
+      - name: Set up Node.js
+        uses: actions/setup-node@v2.5.1
+        with:
+          node-version: '16.x'
+
+      - name: Setup Git User
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "github-action@users.noreply.github.com"
+
+      - name: Push new docs
+        run: |
+          npm run build
+
+      - name: Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.CICD_TOKEN }}
+        run: |
+          git push --follow-tags
+
