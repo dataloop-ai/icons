@@ -1,3 +1,6 @@
-.gitignore
-cleanup.sh
-commit.sh
+*
+!package.json
+!README.md
+!style.css
+!assets/**.*
+!fonts/**.*
