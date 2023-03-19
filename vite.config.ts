@@ -5,8 +5,11 @@ import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  build: {
+    outDir: 'docs'
+  },
   optimizeDeps: {
-    include: ['lodash']
+    include: ['lodash', '@dataloop-ai/components']
   },
   plugins: [
     vue()

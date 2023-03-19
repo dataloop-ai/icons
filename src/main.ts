@@ -1,4 +1,5 @@
-import './style.css'
+import '../style.css'
+
 import { createApp } from 'vue'
 import App from './App.vue'
 
@@ -11,5 +12,5 @@ const router = createRouter({
 })
 
 const app = createApp(App)
-app.use(router)
+// app.use(router)
 app.mount('#app')

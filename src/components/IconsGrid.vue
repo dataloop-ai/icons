@@ -12,6 +12,7 @@
 
 <script lang="ts">
 import { ref, defineComponent, onMounted } from 'vue-demi'
+import { uniq } from 'lodash'
 import IconCard from './IconCard.vue'
 
 export default defineComponent({
@@ -22,14 +23,27 @@ export default defineComponent({
     props: {},
     setup(props) {
         const iconNames = ref<string[]>([])
-        const icons = import.meta.glob(
-            '../../node_modules/@dataloop-ai/icons/docs/assets/**.*'
-        )
+        onMounted(async () => {
+            const iconsModule: any = await import.meta
+                .glob('../../style.css')['../../style.css']()
+            const styleText = iconsModule.default
+            const regex = new RegExp(/(\..*\:before)/g)
+            const split = styleText.split('\n')
+            const icons: string[] = []
+            for (const s of split) {
+                const detected = regex.exec(s)
+                if (detected) {
+                    const stringToReplace = detected[0]
+                    const cleaned = stringToReplace
+                        .split(':before')[0]
+                        .split('.path')[0]
+                        .trim()
+                        .replaceAll('.icon-dl-', '')
+                    icons.push(cleaned)
+                }
+            }
 
-        onMounted(() => {
-            iconNames.value = Object.keys(icons).map(
-                (path) => path.split('assets/')[1].split('.')[0]
-            )
+            iconNames.value = uniq(icons)
         })
         return {
             icons: iconNames
@@ -38,18 +52,18 @@ export default defineComponent({
 })
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .container {
     height: 100%;
     width: 100%;
-}
 
-.icons-container {
-    padding: 15px;
-    height: 60vh;
-    overflow: scroll;
-    gap: 1rem;
-    display: flex;
-    flex-wrap: wrap;
+    .icons-container {
+        padding: 15px;
+        // height: 60vh;
+        // overflow: scroll;
+        gap: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 </style>
