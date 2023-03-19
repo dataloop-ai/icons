@@ -32,12 +32,6 @@ jobs:
         run: |
           npm run build
 
-      - name: Change occurrences to relative links
-        run: |
-          find ./docs -type f -name '*' -not \( -name '*.svg' \) -exec sed -i 's/\/assets/\.\/assets/g' {} \;
-          sed -i 's/\/favicon\.ico/\.\/favicon\.ico/g' docs/index.html
-          find ./docs -type f -name '*' -not \( -name '*.svg' \) -exec sed -i 's/assets\/style/\.\/assets\/style/g' {} \;
-
       - name: Push changes
         env:
           GITHUB_TOKEN: ${{ secrets.CICD_TOKEN }} 

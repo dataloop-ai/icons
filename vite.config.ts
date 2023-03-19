@@ -8,6 +8,7 @@ export default defineConfig({
   build: {
     outDir: 'docs'
   },
+  base: '/icons/',
   optimizeDeps: {
     include: ['lodash', '@dataloop-ai/components']
   },
