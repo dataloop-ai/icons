@@ -24,26 +24,30 @@ export default defineComponent({
     setup(props) {
         const iconNames = ref<string[]>([])
         onMounted(async () => {
-            const styleModule: any = await import.meta
-                .glob('../../style.css')
-            const modules = Object.values(styleModule)
-            console.log(styleModule, modules)
-            const iconsModuleImport = modules[0] as any
-            const iconsModule = await iconsModuleImport()
-            const styleText = iconsModule.default
-            const regex = new RegExp(/(\..*\:before)/g)
-            const split = styleText.split('\n')
             const icons: string[] = []
-            for (const s of split) {
-                const detected = regex.exec(s)
-                if (detected) {
-                    const stringToReplace = detected[0]
-                    const cleaned = stringToReplace
-                        .split(':before')[0]
-                        .split('.path')[0]
-                        .trim()
-                        .replaceAll('.icon-dl-', '')
-                    icons.push(cleaned)
+            const regex = new RegExp(/(\..*\:before)/g)
+            const styleSheets: CSSStyleSheet[] =
+                document.styleSheets as any as CSSStyleSheet[]
+            for (const sheet of styleSheets) {
+                const rules: CSSRule[] = sheet.cssRules as any as CSSRule[]
+                if (!rules) {
+                    continue
+                }
+
+                for (const rule of rules) {
+                    if (rule.cssText.includes('icon-dl-')) {
+                        const detected = regex.exec(rule.cssText)
+                        if (detected) {
+                            const stringToReplace = detected[0]
+                            const cleaned = stringToReplace
+                                .split(':before')[0]
+                                .split('.path')[0]
+                                .trim()
+                                .replaceAll('.icon-dl-', '')
+                                .replaceAll(':', '')
+                            icons.push(cleaned)
+                        }
+                    }
                 }
             }
 
