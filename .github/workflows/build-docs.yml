@@ -36,6 +36,7 @@ jobs:
         run: |
           find ./docs -type f -name '*' -not \( -name '*.svg' \) -exec sed -i 's/\/assets/\.\/assets/g' {} \;
           sed -i 's/\/favicon\.ico/\.\/favicon\.ico/g' docs/index.html
+          find ./docs -type f -name '*' -not \( -name '*.svg' \) -exec sed -i 's/assets\/style/\.\/style/g' {} \;
 
       - name: Push changes
         env:
