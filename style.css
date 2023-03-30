@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?6vkbvl');
-  src:  url('fonts/dl-icons.eot?6vkbvl#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?6vkbvl') format('truetype'),
-    url('fonts/dl-icons.woff?6vkbvl') format('woff'),
-    url('fonts/dl-icons.svg?6vkbvl#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?6j9k42');
+  src:  url('fonts/dl-icons.eot?6j9k42#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?6j9k42') format('truetype'),
+    url('fonts/dl-icons.woff?6j9k42') format('woff'),
+    url('fonts/dl-icons.svg?6j9k42#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -37,16 +37,16 @@
 .icon-dl-3:before {
   content: "\e903";
 }
-.icon-dl-d-rotate:before {
+.icon-dl-3d-rotate:before {
   content: "\e904";
 }
 .icon-dl-4:before {
   content: "\e905";
 }
-.icon-dl-sec-back:before {
+.icon-dl-5-sec-back:before {
   content: "\e906";
 }
-.icon-dl-sec-next:before {
+.icon-dl-5-sec-next:before {
   content: "\e907";
 }
 .icon-dl-5:before {
