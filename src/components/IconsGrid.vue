@@ -24,33 +24,13 @@ export default defineComponent({
     setup(props) {
         const iconNames = ref<string[]>([])
         onMounted(async () => {
-            const icons: string[] = []
-            const regex = new RegExp(/(\..*\:before)/g)
-            const styleSheets: CSSStyleSheet[] =
-                document.styleSheets as any as CSSStyleSheet[]
-            for (const sheet of styleSheets) {
-                const rules: CSSRule[] = sheet.cssRules as any as CSSRule[]
-                if (!rules) {
-                    continue
-                }
-
-                for (const rule of rules) {
-                    if (rule.cssText.includes('icon-dl-')) {
-                        const detected = regex.exec(rule.cssText)
-                        if (detected) {
-                            const stringToReplace = detected[0]
-                            const cleaned = stringToReplace
-                                .split(':before')[0]
-                                .split('.path')[0]
-                                .trim()
-                                .replaceAll('.icon-dl-', '')
-                                .replaceAll(':', '')
-                            icons.push(cleaned)
-                        }
-                    }
-                }
-            }
-
+            const files = await (import.meta.glob('../../assets/*'))
+            const filenames = Object.keys(files)
+            const icons = filenames.map((filename) => {
+                let cleaned = filename.replace('../../assets/', '')
+                cleaned = cleaned.replace('.svg', '')
+                return cleaned
+            })
             iconNames.value = uniq(icons)
         })
         return {

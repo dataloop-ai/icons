@@ -1,5 +1,5 @@
 <template>
-    <dl-theme-provider>
+    <dl-theme-provider :is-dark="false">
         <div class="container">
             <div class="logo-container">
                 <a

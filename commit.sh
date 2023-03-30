@@ -1,7 +1,13 @@
 #!/bin/bash
 
+
 # cleans all svg file names
 ./cleanup.sh
+
+sleep 0.5
+
+git config --global merge.defaultToUpstream merge
+git pull
 
 sleep 0.5
 git add .
