@@ -1,5 +1,11 @@
 <template>
     <div class="container">
+        <div style="margin: 2vh 8vw">
+            <dl-search
+                v-model="search"
+                placeholder="Search for a specific icon.."
+            />
+        </div>
         <div class="icons-container">
             <icon-card
                 v-for="(icon, index) of icons"
@@ -11,20 +17,23 @@
 </template>
 
 <script lang="ts">
-import { ref, defineComponent, onMounted } from 'vue-demi'
+import { ref, defineComponent, onMounted, watch, computed } from 'vue-demi'
 import { uniq } from 'lodash'
 import IconCard from './IconCard.vue'
+import { DlSearch } from '@dataloop-ai/components'
 
 export default defineComponent({
     name: 'IconsGrid',
     components: {
-        IconCard
+        IconCard,
+        DlSearch
     },
     props: {},
     setup(props) {
+        const search = ref('')
         const iconNames = ref<string[]>([])
         onMounted(async () => {
-            const files = await (import.meta.glob('../../assets/*'))
+            const files = await import.meta.glob('../../assets/*')
             const filenames = Object.keys(files)
             const icons = filenames.map((filename) => {
                 let cleaned = filename.replace('../../assets/', '')
@@ -33,8 +42,20 @@ export default defineComponent({
             })
             iconNames.value = uniq(icons)
         })
+
+        const filteredIcons = computed(() => {
+            if (search.value && search.value.length > 0) {
+                return iconNames.value.filter((icon) =>
+                    icon.includes(search.value)
+                )
+            } else {
+                return iconNames.value
+            }
+        })
+
         return {
-            icons: iconNames
+            icons: filteredIcons,
+            search
         }
     }
 })

@@ -30,10 +30,9 @@ const logoClick = () => {}
 
 <style lang="scss" scoped>
 header {
-    background: linear-gradient(to top, transparent 40%, var(--dl-color-info));
     display: grid;
     place-items: center;
-    height: 40vh;
+    height: 25vh;
 
     text-align: center;
 
@@ -48,7 +47,6 @@ header {
 }
 
 .logo-container {
-    background-color: var(--dl-color-info);
     padding: 10px;
 
     .logo {
@@ -68,5 +66,7 @@ header {
 
 body {
     display: block;
+    background: linear-gradient(to top, transparent 93%, var(--dl-color-info));
+    height: 100vh;
 }
 </style>
