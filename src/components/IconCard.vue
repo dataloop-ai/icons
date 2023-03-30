@@ -1,12 +1,6 @@
 <template>
-    <div
-        class="icon-card"
-        @click="onClick"
-    >
-        <div
-            class="icon-container"
-            style="width: 100%"
-        >
+    <div class="icon-card" @click="onClick">
+        <div class="icon-container" style="width: 100%">
             <dl-icon
                 :icon="`icon-dl-${icon}`"
                 :size="iconSize"
@@ -15,15 +9,14 @@
         <div class="container">
             {{ icon }}
         </div>
-        <dl-tooltip>
-            Click to copy selector to clipboard
-        </dl-tooltip>
+        <dl-tooltip> Click to copy selector to clipboard </dl-tooltip>
     </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, toRef } from 'vue'
 import { DlIcon, DlTooltip, DlToast } from '@dataloop-ai/components'
+import '../../style.css'
 
 export default defineComponent({
     name: 'IconCard',
@@ -41,7 +34,12 @@ export default defineComponent({
         const onClick = async () => {
             try {
                 await navigator.clipboard.writeText(`icon-dl-${props.icon}`)
-                DlToast.open({message: 'Copied to clipboard', type: 'success', duration: 500, position: 'top-right' })
+                DlToast.open({
+                    message: 'Copied to clipboard',
+                    type: 'success',
+                    duration: 500,
+                    position: 'top-right'
+                })
             } catch (e) {
                 console.error('Failed to copy to clipboard')
             }

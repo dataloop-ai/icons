@@ -7,9 +7,16 @@
             />
         </div>
         <div class="icons-container">
+            <dl-typography
+                v-if="!filteredIcons.length"
+                style="width: 100%; text-align: center"
+                variant="h1"
+            >
+                No icons found
+            </dl-typography>
             <icon-card
-                v-for="(icon, index) of icons"
-                :key="`${index - icon}`"
+                v-for="(icon, index) of filteredIcons"
+                :key="`${index}-${icon}`"
                 :icon="icon"
             />
         </div>
@@ -17,16 +24,30 @@
 </template>
 
 <script lang="ts">
-import { ref, defineComponent, onMounted, watch, computed } from 'vue-demi'
+import { ref, defineComponent, onMounted, computed } from 'vue-demi'
 import { uniq } from 'lodash'
 import IconCard from './IconCard.vue'
-import { DlSearch } from '@dataloop-ai/components'
+import { DlSearch, DlTypography } from '@dataloop-ai/components'
+
+const COLORED_ICONS = [
+    'discover',
+    'diner',
+    'confetti',
+    'visa',
+    'mastercard',
+    'debit',
+    'american_express',
+    'jcb',
+    'launch',
+    'unionpay'
+]
 
 export default defineComponent({
     name: 'IconsGrid',
     components: {
         IconCard,
-        DlSearch
+        DlSearch,
+        DlTypography
     },
     props: {},
     setup(props) {
@@ -43,19 +64,26 @@ export default defineComponent({
             iconNames.value = uniq(icons)
         })
 
+        const isColored = (name: string) => {
+            if (COLORED_ICONS.includes(name)) {
+                return true
+            }
+            return false
+        }
+
         const filteredIcons = computed(() => {
+            const filtered = iconNames.value.filter((icon) => !isColored(icon))
             if (search.value && search.value.length > 0) {
                 const termToSearch = search.value.replace('icon-dl-', '')
-                return iconNames.value.filter((icon) =>
-                    icon.includes(termToSearch)
+                return filtered.filter((icon) => icon.includes(termToSearch)
                 )
             } else {
-                return iconNames.value
+                return filtered
             }
         })
 
         return {
-            icons: filteredIcons,
+            filteredIcons,
             search
         }
     }
