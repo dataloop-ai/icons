@@ -6,6 +6,7 @@
 
 sleep 0.5
 
+git config pull.rebase false
 git config --global merge.defaultToUpstream merge
 git pull
 
