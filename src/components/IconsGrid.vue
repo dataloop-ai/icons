@@ -45,8 +45,9 @@ export default defineComponent({
 
         const filteredIcons = computed(() => {
             if (search.value && search.value.length > 0) {
+                const termToSearch = search.value.replace('icon-dl-', '')
                 return iconNames.value.filter((icon) =>
-                    icon.includes(search.value)
+                    icon.includes(termToSearch)
                 )
             } else {
                 return iconNames.value
