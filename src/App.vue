@@ -24,6 +24,7 @@
 <script setup lang="ts">
 import { DlThemeProvider } from '@dataloop-ai/components'
 import IconsGrid from './components/IconsGrid.vue'
+import { DlIcon } from '@dataloop-ai/components'
 
 const logoClick = () => {}
 </script>
@@ -57,6 +58,10 @@ header {
         cursor: pointer;
     }
 }
+
+.container {
+    min-height: 68vh !important;
+}
 </style>
 
 <style lang="scss">
@@ -65,8 +70,8 @@ header {
 }
 
 body {
-    display: block;
-    background: linear-gradient(to top, transparent 93%, var(--dl-color-info));
-    height: 100vh;
+    display: block !important;
+    background: linear-gradient(to top, transparent 93%, var(--dl-color-info)) !important;
+    height: max-content !important;
 }
 </style>
