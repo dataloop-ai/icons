@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?all3pr');
-  src:  url('fonts/dl-icons.eot?all3pr#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?all3pr') format('truetype'),
-    url('fonts/dl-icons.woff?all3pr') format('woff'),
-    url('fonts/dl-icons.svg?all3pr#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?6y5mj0');
+  src:  url('fonts/dl-icons.eot?6y5mj0#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?6y5mj0') format('truetype'),
+    url('fonts/dl-icons.woff?6y5mj0') format('woff'),
+    url('fonts/dl-icons.svg?6y5mj0#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-dl-add-filled:before {
+  content: "\eaf5";
+}
+.icon-dl-cloud-ops:before {
+  content: "\eaf6";
+}
+.icon-dl-delete-filled:before {
+  content: "\eaf7";
+}
+.icon-dl-enter:before {
+  content: "\eaf8";
+}
+.icon-dl-expand-4:before {
+  content: "\eaf9";
+}
+.icon-dl-filter-filled-2:before {
+  content: "\eafa";
+}
 .icon-dl-donuts:before {
   content: "\eaf4";
 }
