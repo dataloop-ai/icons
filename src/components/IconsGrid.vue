@@ -29,19 +29,6 @@ import { uniq } from 'lodash'
 import IconCard from './IconCard.vue'
 import { DlSearch, DlTypography } from '@dataloop-ai/components'
 
-const COLORED_ICONS = [
-    'discover',
-    'diner',
-    'confetti',
-    'visa',
-    'mastercard',
-    'debit',
-    'american_express',
-    'jcb',
-    'launch',
-    'unionpay'
-]
-
 export default defineComponent({
     name: 'IconsGrid',
     components: {
@@ -64,21 +51,13 @@ export default defineComponent({
             iconNames.value = uniq(icons)
         })
 
-        const isColored = (name: string) => {
-            if (COLORED_ICONS.includes(name)) {
-                return true
-            }
-            return false
-        }
-
         const filteredIcons = computed(() => {
-            const filtered = iconNames.value.filter((icon) => !isColored(icon))
             if (search.value && search.value.length > 0) {
                 const termToSearch = search.value.replace('icon-dl-', '')
-                return filtered.filter((icon) => icon.includes(termToSearch)
+                return iconNames.value.filter((icon) => icon.includes(termToSearch)
                 )
             } else {
-                return filtered
+                return iconNames.value
             }
         })
 

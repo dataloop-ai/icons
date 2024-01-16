@@ -7,7 +7,7 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
   base: '/icons/',
   optimizeDeps: {
-    include: ['lodash', '@dataloop-ai/components']
+    include: ['lodash', '@dataloop-ai/components', 'flat', 'highlight.js', 'sortablejs']
   },
   plugins: [
     vue()

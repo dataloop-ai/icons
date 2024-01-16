@@ -1,10 +1,7 @@
 <template>
     <div class="icon-card" @click="onClick">
         <div class="icon-container" style="width: 100%">
-            <dl-icon
-                :icon="`icon-dl-${icon}`"
-                :size="iconSize"
-            />
+            <dl-icon :icon="`icon-dl-${icon}`" :size="iconSize" />
         </div>
         <div class="container">
             {{ icon }}

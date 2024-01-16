@@ -22,11 +22,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit --skipLibCheck && vite build",
+    "build:types": "tsc --declaration types.ts",
     "lint": "eslint ./src --ext .ts,.vue ",
     "lint:fix": "eslint ./src --ext .ts,.vue --fix"
   },
   "devDependencies": {
-    "@dataloop-ai/components": "^0.16.2",
+    "@dataloop-ai/components": "^0.19.178",
     "@types/jsdom": "^21.1.0",
     "@types/node": "^18.14.2",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
