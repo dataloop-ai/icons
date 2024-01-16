@@ -22,7 +22,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit --skipLibCheck && vite build",
-    "build:types": "tsc --target es2015 --module es6 --declaration types.ts",
+    "build:types": "tsc --target es5 --module commonjs --declaration types.ts",
     "lint": "eslint ./src --ext .ts,.vue ",
     "lint:fix": "eslint ./src --ext .ts,.vue --fix"
   },

@@ -1,4 +1,7 @@
-export var COLORED_ICONS;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.COLORED_ICONS = void 0;
+var COLORED_ICONS;
 (function (COLORED_ICONS) {
     COLORED_ICONS["DISCOVER"] = "discover";
     COLORED_ICONS["DINER"] = "diner";
@@ -16,4 +19,4 @@ export var COLORED_ICONS;
     COLORED_ICONS["HUGGING_FACE"] = "hugging-face";
     COLORED_ICONS["NVIDIA"] = "nvidia";
     COLORED_ICONS["OPEN_MM_LABS"] = "open-mm-labs";
-})(COLORED_ICONS || (COLORED_ICONS = {}));
+})(COLORED_ICONS = exports.COLORED_ICONS || (exports.COLORED_ICONS = {}));
