@@ -10,12 +10,6 @@ git config pull.rebase false
 git pull
 
 sleep 0.5
-npm i
-
-sleep 0.5
-npm run build:types
-
-sleep 0.5
 git add .
 
 sleep 0.5
