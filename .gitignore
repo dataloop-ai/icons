@@ -31,3 +31,6 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
+
+types.js
+types.d.ts
