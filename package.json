@@ -22,6 +22,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit --skipLibCheck && vite build",
+    "build:types": "tsc --target ESNext --module ESNext --moduleResolution Node --declaration types.ts",
     "lint": "eslint ./src --ext .ts,.vue ",
     "lint:fix": "eslint ./src --ext .ts,.vue --fix"
   },

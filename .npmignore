@@ -5,3 +5,4 @@
 !assets/**.*
 !fonts/**.*
 !types.js
+!types.d.ts
