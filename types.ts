@@ -14,5 +14,6 @@ export enum COLORED_ICONS {
     AWS_DARK = 'aws-dark',
     HUGGING_FACE = 'hugging-face',
     NVIDIA = 'nvidia',
-    OPEN_MM_LABS = 'open-mm-labs'
+    OPEN_MM_LABS = 'open-mm-labs',
+    DATALOOP = 'dataloop',
 }

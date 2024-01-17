@@ -16,4 +16,5 @@ export var COLORED_ICONS;
     COLORED_ICONS["HUGGING_FACE"] = "hugging-face";
     COLORED_ICONS["NVIDIA"] = "nvidia";
     COLORED_ICONS["OPEN_MM_LABS"] = "open-mm-labs";
+    COLORED_ICONS["DATALOOP"] = "dataloop";
 })(COLORED_ICONS || (COLORED_ICONS = {}));
