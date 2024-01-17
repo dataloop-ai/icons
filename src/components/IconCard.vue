@@ -13,6 +13,7 @@
 <script lang="ts">
 import { defineComponent, toRef } from 'vue'
 import { DlIcon, DlTooltip, DlToast } from '@dataloop-ai/components'
+import { DlToastPositions, DlToastTypes } from '@dataloop-ai/components/types'
 import '../../style.css'
 
 export default defineComponent({
@@ -33,9 +34,9 @@ export default defineComponent({
                 await navigator.clipboard.writeText(`icon-dl-${props.icon}`)
                 DlToast.open({
                     message: 'Copied to clipboard',
-                    type: 'success',
+                    type: DlToastTypes.SUCCESS,
                     duration: 500,
-                    position: 'top-right'
+                    position: DlToastPositions.TOP_RIGHT
                 })
             } catch (e) {
                 console.error('Failed to copy to clipboard')

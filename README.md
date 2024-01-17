@@ -1,4 +1,4 @@
-# [DL Icons](https://dataloop-ai.github.io/icons/)
+# [DL Icons](https://dataloop-ai.github.io/icons/) ![icons version](https://img.shields.io/npm/v/@dataloop-ai/icons?label=Latest%20Library%20Version)
 
 This is a Dataloop created icon pack.
 
