@@ -35,7 +35,7 @@ export default defineComponent({
                 DlToast.open({
                     message: 'Copied to clipboard',
                     type: DlToastTypes.SUCCESS,
-                    duration: 500,
+                    duration: 5,
                     position: DlToastPositions.TOP_RIGHT
                 })
             } catch (e) {
