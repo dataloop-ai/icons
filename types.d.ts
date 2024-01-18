@@ -15,5 +15,8 @@ export declare enum COLORED_ICONS {
     HUGGING_FACE = "hugging-face",
     NVIDIA = "nvidia",
     OPEN_MM_LABS = "open-mm-labs",
-    DATALOOP = "dataloop"
+    DATALOOP = "dataloop",
+    AMD = "amd",
+    INTEL = "intel",
+    QUALCOMM = "qualcomm"
 }
