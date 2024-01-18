@@ -16,4 +16,7 @@ export enum COLORED_ICONS {
     NVIDIA = 'nvidia',
     OPEN_MM_LABS = 'open-mm-labs',
     DATALOOP = 'dataloop',
+    AMD = 'amd',
+    INTEL = 'intel',
+    QUALCOMM = 'qualcomm',
 }
