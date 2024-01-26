@@ -19,4 +19,7 @@ export enum COLORED_ICONS {
     AMD = 'amd',
     INTEL = 'intel',
     QUALCOMM = 'qualcomm',
+    META = 'meta',
+    ULTRALYTICS = 'ultralytics',
+    STARS = 'stars'
 }

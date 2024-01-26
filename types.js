@@ -20,4 +20,7 @@ export var COLORED_ICONS;
     COLORED_ICONS["AMD"] = "amd";
     COLORED_ICONS["INTEL"] = "intel";
     COLORED_ICONS["QUALCOMM"] = "qualcomm";
+    COLORED_ICONS["META"] = "meta";
+    COLORED_ICONS["ULTRALYTICS"] = "ultralytics";
+    COLORED_ICONS["STARS"] = "stars";
 })(COLORED_ICONS || (COLORED_ICONS = {}));

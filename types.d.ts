@@ -18,5 +18,8 @@ export declare enum COLORED_ICONS {
     DATALOOP = "dataloop",
     AMD = "amd",
     INTEL = "intel",
-    QUALCOMM = "qualcomm"
+    QUALCOMM = "qualcomm",
+    META = 'meta',
+    ULTRALYTICS = 'ultralytics',
+    STARS = 'stars'
 }
