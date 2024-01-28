@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?pk5rba');
-  src:  url('fonts/dl-icons.eot?pk5rba#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?pk5rba') format('truetype'),
-    url('fonts/dl-icons.woff?pk5rba') format('woff'),
-    url('fonts/dl-icons.svg?pk5rba#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?hop4b5');
+  src:  url('fonts/dl-icons.eot?hop4b5#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?hop4b5') format('truetype'),
+    url('fonts/dl-icons.woff?hop4b5') format('woff'),
+    url('fonts/dl-icons.svg?hop4b5#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -35,14 +35,8 @@
   content: "\eb19";
   color: #fff;
 }
-.icon-dl-ultralytics-light .path1:before {
+.icon-dl-ultralytics-light:before {
   content: "\eb1a";
-  color: rgb(0, 0, 0);
-}
-.icon-dl-ultralytics-light .path2:before {
-  content: "\eb1b";
-  margin-left: -1em;
-  color: rgb(11, 35, 169);
 }
 .icon-dl-amd:before {
   content: "\eb14";
