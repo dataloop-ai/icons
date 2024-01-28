@@ -21,6 +21,7 @@ export var COLORED_ICONS;
     COLORED_ICONS["INTEL"] = "intel";
     COLORED_ICONS["QUALCOMM"] = "qualcomm";
     COLORED_ICONS["META"] = "meta";
-    COLORED_ICONS["ULTRALYTICS"] = "ultralytics";
+    COLORED_ICONS["ULTRALYTICS_LIGHT"] = "ultralytics-light";
+    COLORED_ICONS["ULTRALYTICS_DARK"] = "ultralytics-dark";
     COLORED_ICONS["STARS"] = "stars";
 })(COLORED_ICONS || (COLORED_ICONS = {}));

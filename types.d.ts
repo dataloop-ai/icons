@@ -20,6 +20,7 @@ export declare enum COLORED_ICONS {
     INTEL = "intel",
     QUALCOMM = "qualcomm",
     META = "meta",
-    ULTRALYTICS = "ultralytics",
+    ULTRALYTICS_LIGHT = "ultralytics-light",
+    ULTRALYTICS_DARK = "ultralytics-dark",
     STARS = "stars"
 }
