@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?hop4b5');
-  src:  url('fonts/dl-icons.eot?hop4b5#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?hop4b5') format('truetype'),
-    url('fonts/dl-icons.woff?hop4b5') format('woff'),
-    url('fonts/dl-icons.svg?hop4b5#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?izh5h8');
+  src:  url('fonts/dl-icons.eot?izh5h8#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?izh5h8') format('truetype'),
+    url('fonts/dl-icons.woff?izh5h8') format('woff'),
+    url('fonts/dl-icons.svg?izh5h8#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-dl-microsoft .path1:before {
+  content: "\eb1b";
+  color: rgb(241, 81, 27);
+}
+.icon-dl-microsoft .path2:before {
+  content: "\eb1c";
+  margin-left: -1em;
+  color: rgb(128, 204, 40);
+}
+.icon-dl-microsoft .path3:before {
+  content: "\eb1d";
+  margin-left: -1em;
+  color: rgb(0, 173, 239);
+}
+.icon-dl-microsoft .path4:before {
+  content: "\eb1e";
+  margin-left: -1em;
+  color: rgb(251, 188, 9);
+}
 .icon-dl-stars:before {
   content: "\eb18";
 }
@@ -77,7 +96,7 @@
 }
 .icon-dl-aws-dark .path1:before {
   content: "\eaff";
-  color: rgb(37, 47, 62);
+  color: rgb(255, 255, 255);
 }
 .icon-dl-aws-dark .path2:before {
   content: "\eb00";
@@ -91,7 +110,7 @@
 }
 .icon-dl-aws-light .path1:before {
   content: "\eb02";
-  color: rgb(255, 255, 255);
+  color: rgb(37, 47, 62);
 }
 .icon-dl-aws-light .path2:before {
   content: "\eb03";
