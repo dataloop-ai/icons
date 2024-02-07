@@ -19,7 +19,7 @@ You can use the icons in two main ways.
 
     In order to load the CSS font files you can simply import the style
     ```js
-    import '@dataloop-ai/icons/docs/style.css'
+    import '@dataloop-ai/icons/style.css'
     ```
 
     This will make sure you have loaded the glpyh selectors
@@ -33,5 +33,5 @@ You can use the icons in two main ways.
     Just load the svg file into an ```<image>``` tag and point to it.
 
     ```html
-    <img src="node_modules/@dataloop-ai/icons/docs/assets/ai.svg" />
+    <img src="node_modules/@dataloop-ai/icons/assets/ai.svg" />
     ```
