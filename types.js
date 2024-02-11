@@ -24,4 +24,5 @@ export var COLORED_ICONS;
     COLORED_ICONS["ULTRALYTICS_LIGHT"] = "ultralytics-light";
     COLORED_ICONS["ULTRALYTICS_DARK"] = "ultralytics-dark";
     COLORED_ICONS["STARS"] = "stars";
+    COLORED_ICONS["MICROSOFT"] = "microsoft";
 })(COLORED_ICONS || (COLORED_ICONS = {}));
