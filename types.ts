@@ -22,5 +22,6 @@ export enum COLORED_ICONS {
     META = 'meta',
     ULTRALYTICS_LIGHT ='ultralytics-light',
     ULTRALYTICS_DARK ='ultralytics-dark',
-    STARS = 'stars'
+    STARS = 'stars',
+    MICROSOFT = 'microsoft',
 }
