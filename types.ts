@@ -24,5 +24,6 @@ export enum COLORED_ICONS {
     ULTRALYTICS_DARK ='ultralytics-dark',
     STARS = 'stars',
     MICROSOFT = 'microsoft',
-    ULTRALYTICS = 'ultralytics'
+    ULTRALYTICS = 'ultralytics',
+    NETAPP = 'netapp'
 }
