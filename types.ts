@@ -25,5 +25,7 @@ export enum COLORED_ICONS {
     STARS = 'stars',
     MICROSOFT = 'microsoft',
     ULTRALYTICS = 'ultralytics',
-    NETAPP = 'netapp'
+    NETAPP = 'netapp',
+    GCP = 'gcp',
+    AZURE = 'azure'
 }

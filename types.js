@@ -27,4 +27,6 @@ export var COLORED_ICONS;
     COLORED_ICONS["MICROSOFT"] = "microsoft";
     COLORED_ICONS["ULTRALYTICS"] = "ultralytics";
     COLORED_ICONS["NETAPP"] = "netapp";
+    COLORED_ICONS["GCP"] = "gcp";
+    COLORED_ICONS["AZURE"] = "azure";
 })(COLORED_ICONS || (COLORED_ICONS = {}));
