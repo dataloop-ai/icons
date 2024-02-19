@@ -17,6 +17,7 @@ export var COLORED_ICONS;
     COLORED_ICONS["NVIDIA"] = "nvidia";
     COLORED_ICONS["OPEN_MM_LABS"] = "open-mm-labs";
     COLORED_ICONS["DATALOOP"] = "dataloop";
+    COLORED_ICONS["DATALOOP_NEW"] = "dataloop-new";
     COLORED_ICONS["DATALOOP_OLD"] = "dataloop-old";
     COLORED_ICONS["AMD"] = "amd";
     COLORED_ICONS["INTEL"] = "intel";
