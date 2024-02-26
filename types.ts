@@ -30,4 +30,5 @@ export enum COLORED_ICONS {
     NETAPP = 'netapp',
     GCP = 'gcp',
     AZURE = 'azure'
+    FSX = 'fsx'
 }

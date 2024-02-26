@@ -29,5 +29,6 @@ export declare enum COLORED_ICONS {
     ULTRALYTICS = "ultralytics",
     NETAPP = "netapp",
     GCP = "gcp",
-    AZURE = "azure"
+    AZURE = "azure",
+    FSX = "fsx"
 }
