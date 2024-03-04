@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?dh15nz');
-  src:  url('fonts/dl-icons.eot?dh15nz#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?dh15nz') format('truetype'),
-    url('fonts/dl-icons.woff?dh15nz') format('woff'),
-    url('fonts/dl-icons.svg?dh15nz#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?pt4zqc');
+  src:  url('fonts/dl-icons.eot?pt4zqc#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?pt4zqc') format('truetype'),
+    url('fonts/dl-icons.woff?pt4zqc') format('woff'),
+    url('fonts/dl-icons.svg?pt4zqc#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,10 +25,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-dl-sec-back:before {
+.icon-dl-5-sec-back:before {
   content: "\e961";
 }
-.icon-dl-sec-next:before {
+.icon-dl-5-sec-next:before {
   content: "\e962";
 }
 .icon-dl-dataloop .path1:before {
@@ -378,7 +378,7 @@
 .icon-dl-3:before {
   content: "\e95e";
 }
-.icon-dl-d-rotate:before {
+.icon-dl-3d-rotate:before {
   content: "\e95f";
 }
 .icon-dl-4:before {
