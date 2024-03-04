@@ -79,7 +79,7 @@ header {
         display: block;
         background: url(https://dataloop.ai/wp-content/uploads/2024/02/dataloop-logo-main.svg)
             no-repeat;
-        height: 32px;
+        height: 48px;
         cursor: pointer;
     }
 }
