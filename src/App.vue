@@ -77,7 +77,7 @@ header {
 
     .logo {
         display: block;
-        background: url(https://dataloop.ai/wp-content/uploads/2020/03/logo.svg)
+        background: url(https://dataloop.ai/wp-content/uploads/2024/02/dataloop-logo-main.svg)
             no-repeat;
         height: 32px;
         cursor: pointer;
