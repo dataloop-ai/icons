@@ -30,4 +30,6 @@ export var COLORED_ICONS;
     COLORED_ICONS["GCP"] = "gcp";
     COLORED_ICONS["AZURE"] = "azure";
     COLORED_ICONS["FSX"] = "fsx";
+    COLORED_ICONS["GETTY_IMAGES_LIGHT"] = "getty-images-light";
+    COLORED_ICONS["GETTY_IMAGES_DARK"] = "getty-images-dark";
 })(COLORED_ICONS || (COLORED_ICONS = {}));
