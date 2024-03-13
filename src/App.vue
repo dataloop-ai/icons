@@ -34,10 +34,11 @@
                 <div>
                     <h1>Neurons Icon Pack</h1>
                     <h4>Powered by Dataloop</h4>
+                    <p>Total icons count: {{ iconsCount }}</p>
                 </div>
             </header>
             <section>
-                <IconsGrid />
+                <IconsGrid :icons="iconNames" />
             </section>
         </div>
     </dl-theme-provider>
@@ -47,6 +48,22 @@
 import { DlThemeProvider } from '@dataloop-ai/components'
 import IconsGrid from './components/IconsGrid.vue'
 import { DlButton } from '@dataloop-ai/components'
+import { computed, onMounted, ref } from 'vue-demi'
+import { uniq } from 'lodash'
+
+const iconNames = ref<string[]>([])
+onMounted(async () => {
+    const files = await import.meta.glob('../assets/*')
+    const filenames = Object.keys(files)
+    const icons = filenames.map((filename) => {
+        let cleaned = filename.replace('../assets/', '')
+        cleaned = cleaned.replace('.svg', '')
+        return cleaned
+    })
+    iconNames.value = uniq(icons)
+})
+
+const iconsCount = computed<number>(() => iconNames.value?.length ?? 0)
 
 const logoClick = () => {}
 const openPage = (link: string) => {
@@ -67,6 +84,10 @@ header {
         color: var(--dl-color-darker);
     }
     h4 {
+        font-size: var(--dl-font-size-h4);
+        color: var(--dl-color-lighter);
+    }
+    p {
         font-size: var(--dl-font-size-small);
         color: var(--dl-color-lighter);
     }
