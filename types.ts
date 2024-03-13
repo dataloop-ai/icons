@@ -28,7 +28,7 @@ export enum COLORED_ICONS {
     NETAPP = 'netapp',
     GCP = 'gcp',
     AZURE = 'azure',
-    FSX = 'fsx'
+    FSX = 'fsx',
     GETTY_IMAGES_LIGHT ='getty-images-light',
-    GETTY_IMAGES_DARK ='getty-images-dark',
+    GETTY_IMAGES_DARK ='getty-images-dark'
 }
