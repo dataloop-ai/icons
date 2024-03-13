@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?2hmasv');
-  src:  url('fonts/dl-icons.eot?2hmasv#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?2hmasv') format('truetype'),
-    url('fonts/dl-icons.woff?2hmasv') format('woff'),
-    url('fonts/dl-icons.svg?2hmasv#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?1qhh5g');
+  src:  url('fonts/dl-icons.eot?1qhh5g#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?1qhh5g') format('truetype'),
+    url('fonts/dl-icons.woff?1qhh5g') format('woff'),
+    url('fonts/dl-icons.svg?1qhh5g#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -40,10 +40,10 @@
 .icon-dl-4:before {
   content: "\e904";
 }
-.icon-dl-5sec-back:before {
+.icon-dl-5-sec-back:before {
   content: "\e905";
 }
-.icon-dl-5sec-next:before {
+.icon-dl-5-sec-next:before {
   content: "\e906";
 }
 .icon-dl-5:before {
