@@ -1,10 +1,6 @@
 {
   "name": "@dataloop-ai/icons",
-<<<<<<< HEAD
-  "version": "3.0.78",
-=======
   "version": "3.0.79",
->>>>>>> 8fa605ad603b19a7bffe84f5ff30d10d2e10f5ba
   "description": "The icons repo of DataLoop",
   "repository": {
     "type": "git",
