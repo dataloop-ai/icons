@@ -24,8 +24,7 @@
 </template>
 
 <script lang="ts">
-import { ref, defineComponent, onMounted, computed } from 'vue-demi'
-import { uniq } from 'lodash'
+import { ref, defineComponent, computed, PropType, toRefs } from 'vue-demi'
 import IconCard from './IconCard.vue'
 import { DlSearch, DlTypography } from '@dataloop-ai/components'
 
@@ -36,28 +35,24 @@ export default defineComponent({
         DlSearch,
         DlTypography
     },
-    props: {},
+    props: {
+        icons: {
+            type: Array as PropType<string[]>,
+            default: [] as string[]
+        }
+    },
     setup(props) {
         const search = ref('')
-        const iconNames = ref<string[]>([])
-        onMounted(async () => {
-            const files = await import.meta.glob('../../assets/*')
-            const filenames = Object.keys(files)
-            const icons = filenames.map((filename) => {
-                let cleaned = filename.replace('../../assets/', '')
-                cleaned = cleaned.replace('.svg', '')
-                return cleaned
-            })
-            iconNames.value = uniq(icons)
-        })
+        const { icons } = toRefs(props)
 
         const filteredIcons = computed(() => {
             if (search.value && search.value.length > 0) {
                 const termToSearch = search.value.replace('icon-dl-', '')
-                return iconNames.value.filter((icon) => icon.includes(termToSearch)
+                return icons.value.filter((icon) =>
+                    icon.includes(termToSearch)
                 )
             } else {
-                return iconNames.value
+                return icons.value
             }
         })
 
