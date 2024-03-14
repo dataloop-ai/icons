@@ -1,10 +1,19 @@
 @font-face {
+<<<<<<< HEAD
   font-family: 'dl-icon';
   src:  url('fonts/dl-icon.eot?3o61uq');
   src:  url('fonts/dl-icon.eot?3o61uq#iefix') format('embedded-opentype'),
     url('fonts/dl-icon.ttf?3o61uq') format('truetype'),
     url('fonts/dl-icon.woff?3o61uq') format('woff'),
     url('fonts/dl-icon.svg?3o61uq#dl-icon') format('svg');
+=======
+  font-family: 'dl-icons';
+  src:  url('fonts/dl-icons.eot?muqb64');
+  src:  url('fonts/dl-icons.eot?muqb64#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?muqb64') format('truetype'),
+    url('fonts/dl-icons.woff?muqb64') format('woff'),
+    url('fonts/dl-icons.svg?muqb64#dl-icons') format('svg');
+>>>>>>> cb4f639f2efd1e6e04965f852bb35ef807c92e77
   font-weight: normal;
   font-style: normal;
   font-display: block;
