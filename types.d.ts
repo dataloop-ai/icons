@@ -30,5 +30,6 @@ export declare enum COLORED_ICONS {
     AZURE = "azure",
     FSX = "fsx",
     GETTY_IMAGES_LIGHT = "getty-images-light",
-    GETTY_IMAGES_DARK = "getty-images-dark"
+    GETTY_IMAGES_DARK = "getty-images-dark",
+    SLACK = "slack"
 }
