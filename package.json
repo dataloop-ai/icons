@@ -1,6 +1,10 @@
 {
   "name": "@dataloop-ai/icons",
+<<<<<<< HEAD
   "version": "3.0.87",
+=======
+  "version": "3.0.88",
+>>>>>>> 103f527404df60e80ce8c230cce0f44d3d6ec302
   "description": "The icons repo of DataLoop",
   "repository": {
     "type": "git",
@@ -27,7 +31,7 @@
     "lint:fix": "eslint ./src --ext .ts,.vue --fix"
   },
   "devDependencies": {
-    "@dataloop-ai/components": "^0.19.258",
+    "@dataloop-ai/components": "^0.19.260",
     "@types/jsdom": "^21.1.0",
     "@types/node": "^18.14.2",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
