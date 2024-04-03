@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?hpv47y');
-  src:  url('fonts/dl-icons.eot?hpv47y#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?hpv47y') format('truetype'),
-    url('fonts/dl-icons.woff?hpv47y') format('woff'),
-    url('fonts/dl-icons.svg?hpv47y#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?eew8ej');
+  src:  url('fonts/dl-icons.eot?eew8ej#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?eew8ej') format('truetype'),
+    url('fonts/dl-icons.woff?eew8ej') format('woff'),
+    url('fonts/dl-icons.svg?eew8ej#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-dl-collapse-all:before {
+  content: "\eab9";
+}
+.icon-dl-expand-all:before {
+  content: "\eb3b";
+}
+.icon-dl-fit-to-page:before {
+  content: "\eb3c";
+}
+.icon-dl-fit-to-width:before {
+  content: "\eb3d";
+}
+.icon-dl-label-filled:before {
+  content: "\eb3e";
+}
+.icon-dl-apps-filled:before {
+  content: "\eb3f";
+}
+.icon-dl-discovery:before {
+  content: "\eb40";
+}
 .icon-dl-solutions:before {
   content: "\eb3a";
 }
@@ -1687,9 +1708,6 @@
 }
 .icon-dl-previous-page:before {
   content: "\eab8";
-}
-.icon-dl-private:before {
-  content: "\eab9";
 }
 .icon-dl-project-filled:before {
   content: "\eaba";
