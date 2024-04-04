@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?eew8ej');
-  src:  url('fonts/dl-icons.eot?eew8ej#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?eew8ej') format('truetype'),
-    url('fonts/dl-icons.woff?eew8ej') format('woff'),
-    url('fonts/dl-icons.svg?eew8ej#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?ilmttg');
+  src:  url('fonts/dl-icons.eot?ilmttg#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?ilmttg') format('truetype'),
+    url('fonts/dl-icons.woff?ilmttg') format('woff'),
+    url('fonts/dl-icons.svg?ilmttg#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-dl-kaggle:before {
+  content: "\eb41";
+}
 .icon-dl-collapse-all:before {
   content: "\eab9";
 }
