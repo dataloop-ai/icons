@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?ilmttg');
-  src:  url('fonts/dl-icons.eot?ilmttg#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?ilmttg') format('truetype'),
-    url('fonts/dl-icons.woff?ilmttg') format('woff'),
-    url('fonts/dl-icons.svg?ilmttg#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?3wpue5');
+  src:  url('fonts/dl-icons.eot?3wpue5#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?3wpue5') format('truetype'),
+    url('fonts/dl-icons.woff?3wpue5') format('woff'),
+    url('fonts/dl-icons.svg?3wpue5#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-dl-image-modification-filled:before {
+  content: "\eb42";
+}
+.icon-dl-image-modification-outline:before {
+  content: "\eb43";
+}
+.icon-dl-image-generation-filled:before {
+  content: "\eb44";
+}
+.icon-dl-image-generation-outline:before {
+  content: "\eb45";
+}
 .icon-dl-kaggle:before {
   content: "\eb41";
 }
