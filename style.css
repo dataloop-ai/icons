@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?5ydqm5');
-  src:  url('fonts/dl-icons.eot?5ydqm5#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?5ydqm5') format('truetype'),
-    url('fonts/dl-icons.woff?5ydqm5') format('woff'),
-    url('fonts/dl-icons.svg?5ydqm5#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?6kg766');
+  src:  url('fonts/dl-icons.eot?6kg766#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?6kg766') format('truetype'),
+    url('fonts/dl-icons.woff?6kg766') format('woff'),
+    url('fonts/dl-icons.svg?6kg766#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -28,7 +28,7 @@
 .icon-dl-collapse1:before {
   content: "\eb46";
 }
-.icon-dl-expand1:before {
+.icon-dl-expand:before {
   content: "\eb47";
 }
 .icon-dl-image-modification-filled:before {
@@ -49,7 +49,7 @@
 .icon-dl-collapse-all:before {
   content: "\eab9";
 }
-.icon-dl-expand-all:before {
+.icon-dl-expand-all1:before {
   content: "\eb3b";
 }
 .icon-dl-fit-to-page:before {
@@ -1075,7 +1075,7 @@
 .icon-dl-expand-4:before {
   content: "\e9ff";
 }
-.icon-dl-expand:before {
+.icon-dl-expand-all:before {
   content: "\ea00";
 }
 .icon-dl-export:before {
