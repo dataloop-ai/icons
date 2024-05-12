@@ -33,4 +33,6 @@ export var COLORED_ICONS;
     COLORED_ICONS["GETTY_IMAGES_LIGHT"] = "getty-images-light";
     COLORED_ICONS["GETTY_IMAGES_DARK"] = "getty-images-dark";
     COLORED_ICONS["SLACK"] = "slack";
+    COLORED_ICONS["INTEL_DARK"] = "intel-dark";
+    COLORED_ICONS["INTEL_LIGHT"] = "intel-light";
 })(COLORED_ICONS || (COLORED_ICONS = {}));
