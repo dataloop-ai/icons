@@ -119,11 +119,12 @@ header {
         font-size: 0.8rem;
 
         .git-tag {
-            width: 180px;
+            width: 220px;
             height: 20px;
             content: '';
             cursor: pointer;
             background-image: url(https://img.shields.io/npm/v/@dataloop-ai/icons?label=Latest%20Library%20Version);
+            background-repeat: no-repeat;
         }
 
         .git-tag:hover {
