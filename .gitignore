@@ -31,3 +31,5 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
+
+public/assets/
