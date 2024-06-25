@@ -39,8 +39,8 @@ export declare enum COLORED_ICONS {
     COHERE = "cohere",
     IBM_LIGHT = "ibm-light",
     IBM_DARK = "ibm-dark",
-    TESTTT = 'testtt',
-    TESTTT2 = 'testtt2',
-    TESTTT3 = 'testtt3',
-    TESTTT4 = 'testtt4'
+    TESTTT = "testtt",
+    TESTTT2 = "testtt2",
+    TESTTT3 = "testtt3",
+    TESTTT4 = "testtt4"
 }
