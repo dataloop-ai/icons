@@ -40,4 +40,8 @@ export var COLORED_ICONS;
     COLORED_ICONS["COHERE"] = "cohere";
     COLORED_ICONS["IBM_LIGHT"] = "ibm-light";
     COLORED_ICONS["IBM_DARK"] = "ibm-dark";
+    COLORED_ICONS["TESTTT"] = "testtt";
+    COLORED_ICONS["TESTTT2"] = "testtt2";
+    COLORED_ICONS["TESTTT3"] = "testtt3";
+    COLORED_ICONS["TESTTT4"] = "testtt4";
 })(COLORED_ICONS || (COLORED_ICONS = {}));
