@@ -34,4 +34,10 @@ export enum COLORED_ICONS {
     SLACK = 'slack',
     INTEL_DARK = 'intel-dark',
     INTEL_LIGHT = 'intel-light',
+    AI21_LABS_LIGHT = 'ai21-labs-light',
+    AI21_LABS_DARK = 'ai21-labs-dark',
+    COHERE = 'cohere',
+    IBM_LIGHT = 'ibm-light',
+    IBM_DARK = 'ibm-dark',
+
 }

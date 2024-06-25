@@ -33,5 +33,10 @@ export declare enum COLORED_ICONS {
     GETTY_IMAGES_DARK = "getty-images-dark",
     SLACK = "slack",
     INTEL_DARK = "intel-dark",
-    INTEL_LIGHT = "intel-light"
+    INTEL_LIGHT = "intel-light",
+    AI21_LABS_LIGHT = "ai21-labs-light",
+    AI21_LABS_DARK = "ai21-labs-dark",
+    COHERE = "cohere",
+    IBM_LIGHT = "ibm-light",
+    IBM_DARK = "ibm-dark"
 }
