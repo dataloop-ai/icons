@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?sm4ue7');
-  src:  url('fonts/dl-icons.eot?sm4ue7#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?sm4ue7') format('truetype'),
-    url('fonts/dl-icons.woff?sm4ue7') format('woff'),
-    url('fonts/dl-icons.svg?sm4ue7#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?j9o12c');
+  src:  url('fonts/dl-icons.eot?j9o12c#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?j9o12c') format('truetype'),
+    url('fonts/dl-icons.woff?j9o12c') format('woff'),
+    url('fonts/dl-icons.svg?j9o12c#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -1602,950 +1602,1025 @@
 }
 .icon-dl-microsoft .path1:before {
   content: "\ea94";
-  color: rgb(241, 81, 27);
+  color: rgb(0, 0, 0);
 }
 .icon-dl-microsoft .path2:before {
   content: "\ea95";
   margin-left: -1em;
-  color: rgb(128, 204, 40);
+  color: rgb(247, 208, 70);
 }
 .icon-dl-microsoft .path3:before {
   content: "\ea96";
   margin-left: -1em;
-  color: rgb(0, 173, 239);
+  color: rgb(0, 0, 0);
 }
 .icon-dl-microsoft .path4:before {
   content: "\ea97";
   margin-left: -1em;
-  color: rgb(251, 188, 9);
+  color: rgb(0, 0, 0);
+}
+.icon-dl-microsoft .path5:before {
+  content: "\eb8f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-dl-microsoft .path6:before {
+  content: "\eb90";
+  margin-left: -1em;
+  color: rgb(247, 208, 70);
+}
+.icon-dl-microsoft .path7:before {
+  content: "\eb91";
+  margin-left: -1em;
+  color: rgb(242, 167, 59);
+}
+.icon-dl-microsoft .path8:before {
+  content: "\eb92";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-dl-microsoft .path9:before {
+  content: "\eb93";
+  margin-left: -1em;
+  color: rgb(242, 167, 59);
+}
+.icon-dl-microsoft .path10:before {
+  content: "\eb94";
+  margin-left: -1em;
+  color: rgb(238, 121, 47);
+}
+.icon-dl-microsoft .path11:before {
+  content: "\eb95";
+  margin-left: -1em;
+  color: rgb(238, 121, 47);
+}
+.icon-dl-microsoft .path12:before {
+  content: "\eb96";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-dl-microsoft .path13:before {
+  content: "\eb97";
+  margin-left: -1em;
+  color: rgb(235, 88, 41);
+}
+.icon-dl-microsoft .path14:before {
+  content: "\eb98";
+  margin-left: -1em;
+  color: rgb(238, 121, 47);
+}
+.icon-dl-microsoft .path15:before {
+  content: "\eb99";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-dl-microsoft .path16:before {
+  content: "\eb9a";
+  margin-left: -1em;
+  color: rgb(235, 88, 41);
+}
+.icon-dl-microsoft .path17:before {
+  content: "\eb9b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-dl-microsoft .path18:before {
+  content: "\eb9c";
+  margin-left: -1em;
+  color: rgb(235, 88, 41);
+}
+.icon-dl-microsoft .path19:before {
+  content: "\eb9d";
+  margin-left: -1em;
+  color: rgb(234, 51, 38);
 }
 .icon-dl-minus:before {
-  content: "\ea98";
+  content: "\eaa7";
 }
 .icon-dl-mistral-ai .path1:before {
-  content: "\ea99";
+  content: "\eaa8";
   color: rgb(0, 0, 0);
 }
 .icon-dl-mistral-ai .path2:before {
-  content: "\ea9a";
+  content: "\eaa9";
   margin-left: -1em;
   color: rgb(247, 208, 70);
 }
 .icon-dl-mistral-ai .path3:before {
-  content: "\ea9b";
+  content: "\eaaa";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-mistral-ai .path4:before {
-  content: "\ea9c";
+  content: "\eaab";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-mistral-ai .path5:before {
-  content: "\ea9d";
+  content: "\eaac";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-mistral-ai .path6:before {
-  content: "\ea9e";
+  content: "\eaad";
   margin-left: -1em;
   color: rgb(247, 208, 70);
 }
 .icon-dl-mistral-ai .path7:before {
-  content: "\ea9f";
+  content: "\eaae";
   margin-left: -1em;
   color: rgb(242, 167, 59);
 }
 .icon-dl-mistral-ai .path8:before {
-  content: "\eaa0";
+  content: "\eaaf";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-mistral-ai .path9:before {
-  content: "\eaa1";
+  content: "\eab0";
   margin-left: -1em;
   color: rgb(242, 167, 59);
 }
 .icon-dl-mistral-ai .path10:before {
-  content: "\eaa2";
+  content: "\eab1";
   margin-left: -1em;
   color: rgb(238, 121, 47);
 }
 .icon-dl-mistral-ai .path11:before {
-  content: "\eaa3";
+  content: "\eab2";
   margin-left: -1em;
   color: rgb(238, 121, 47);
 }
 .icon-dl-mistral-ai .path12:before {
-  content: "\eaa4";
+  content: "\eab3";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-mistral-ai .path13:before {
-  content: "\eaa5";
+  content: "\eab4";
   margin-left: -1em;
   color: rgb(235, 88, 41);
 }
 .icon-dl-mistral-ai .path14:before {
-  content: "\eaa6";
+  content: "\eab5";
   margin-left: -1em;
   color: rgb(238, 121, 47);
 }
 .icon-dl-mistral-ai .path15:before {
-  content: "\eaa7";
+  content: "\eab6";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-mistral-ai .path16:before {
-  content: "\eaa8";
+  content: "\eab7";
   margin-left: -1em;
   color: rgb(235, 88, 41);
 }
 .icon-dl-mistral-ai .path17:before {
-  content: "\eaa9";
+  content: "\eab8";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-mistral-ai .path18:before {
-  content: "\eaaa";
+  content: "\eab9";
   margin-left: -1em;
   color: rgb(235, 88, 41);
 }
 .icon-dl-mistral-ai .path19:before {
-  content: "\eaab";
+  content: "\eaba";
   margin-left: -1em;
   color: rgb(234, 51, 38);
 }
 .icon-dl-modality:before {
-  content: "\eaac";
+  content: "\eabb";
 }
 .icon-dl-models:before {
-  content: "\eaad";
+  content: "\eabc";
 }
 .icon-dl-models-management:before {
-  content: "\eaae";
+  content: "\eabd";
 }
 .icon-dl-models-management-filled:before {
-  content: "\eaaf";
+  content: "\eabe";
 }
 .icon-dl-move-to-folder:before {
-  content: "\eab0";
+  content: "\eabf";
 }
 .icon-dl-move-tool:before {
-  content: "\eab1";
+  content: "\eac0";
 }
 .icon-dl-multi-modal:before {
-  content: "\eab2";
+  content: "\eac1";
 }
 .icon-dl-mute:before {
-  content: "\eab3";
+  content: "\eac2";
 }
 .icon-dl-netapp:before {
-  content: "\eab4";
+  content: "\eac3";
   color: #0077c0;
 }
 .icon-dl-new-window:before {
-  content: "\eab5";
+  content: "\eac4";
 }
 .icon-dl-next:before {
-  content: "\eab6";
+  content: "\eac5";
 }
 .icon-dl-next-frame:before {
-  content: "\eab7";
+  content: "\eac6";
 }
 .icon-dl-no-output:before {
-  content: "\eab8";
+  content: "\eac7";
 }
 .icon-dl-node-predict:before {
-  content: "\eab9";
+  content: "\eac8";
 }
 .icon-dl-node-train:before {
-  content: "\eaba";
+  content: "\eac9";
 }
 .icon-dl-note-tool:before {
-  content: "\eabb";
+  content: "\eaca";
 }
 .icon-dl-notification:before {
-  content: "\eabc";
+  content: "\eacb";
 }
 .icon-dl-nvidia:before {
-  content: "\eabd";
+  content: "\eacc";
   color: #76b900;
 }
 .icon-dl-ocr:before {
-  content: "\eabe";
+  content: "\eacd";
 }
 .icon-dl-ontology:before {
-  content: "\eabf";
+  content: "\eace";
 }
 .icon-dl-ontology-filled:before {
-  content: "\eac0";
+  content: "\eacf";
 }
 .icon-dl-opacity:before {
-  content: "\eac1";
+  content: "\ead0";
 }
 .icon-dl-open-ai:before {
-  content: "\eac2";
+  content: "\ead1";
   color: #74aa9c;
 }
 .icon-dl-open-folder:before {
-  content: "\eac3";
-}
-.icon-dl-open-mm-labs:before {
-  content: "\eac4";
-}
-.icon-dl-org-projects:before {
-  content: "\eac5";
-}
-.icon-dl-organization:before {
-  content: "\eac6";
-}
-.icon-dl-organization-outline:before {
-  content: "\eac7";
-}
-.icon-dl-other:before {
-  content: "\eac8";
-}
-.icon-dl-oval:before {
-  content: "\eac9";
-}
-.icon-dl-overview:before {
-  content: "\eaca";
-}
-.icon-dl-package-filled:before {
-  content: "\eacb";
-}
-.icon-dl-panel-resize:before {
-  content: "\eacc";
-}
-.icon-dl-parenting:before {
-  content: "\eacd";
-}
-.icon-dl-paste:before {
-  content: "\eace";
-}
-.icon-dl-pause:before {
-  content: "\eacf";
-}
-.icon-dl-pdf:before {
-  content: "\ead0";
-}
-.icon-dl-pdf-filled:before {
-  content: "\ead1";
-}
-.icon-dl-pin-mark:before {
   content: "\ead2";
 }
-.icon-dl-pipeline:before {
+.icon-dl-open-mm-labs:before {
   content: "\ead3";
 }
-.icon-dl-pipeline-filled:before {
+.icon-dl-org-projects:before {
   content: "\ead4";
 }
-.icon-dl-plan:before {
+.icon-dl-organization:before {
   content: "\ead5";
 }
-.icon-dl-plan-filled:before {
+.icon-dl-organization-outline:before {
   content: "\ead6";
 }
-.icon-dl-platform-release-notes:before {
+.icon-dl-other:before {
   content: "\ead7";
 }
-.icon-dl-platform-release-notes-filled:before {
+.icon-dl-oval:before {
   content: "\ead8";
 }
-.icon-dl-play:before {
+.icon-dl-overview:before {
   content: "\ead9";
 }
-.icon-dl-plus:before {
+.icon-dl-package-filled:before {
   content: "\eada";
 }
-.icon-dl-point:before {
+.icon-dl-panel-resize:before {
   content: "\eadb";
 }
-.icon-dl-poligonal-hand-filled:before {
+.icon-dl-parenting:before {
   content: "\eadc";
 }
-.icon-dl-polygon:before {
+.icon-dl-paste:before {
   content: "\eadd";
 }
-.icon-dl-polyline:before {
+.icon-dl-pause:before {
   content: "\eade";
 }
-.icon-dl-pose:before {
+.icon-dl-pdf:before {
   content: "\eadf";
 }
-.icon-dl-previous-page:before {
+.icon-dl-pdf-filled:before {
   content: "\eae0";
 }
-.icon-dl-private:before {
+.icon-dl-pin-mark:before {
   content: "\eae1";
 }
-.icon-dl-project:before {
+.icon-dl-pipeline:before {
   content: "\eae2";
 }
-.icon-dl-project-filled:before {
+.icon-dl-pipeline-filled:before {
   content: "\eae3";
 }
-.icon-dl-pulling:before {
+.icon-dl-plan:before {
   content: "\eae4";
 }
-.icon-dl-pulling-filled:before {
+.icon-dl-plan-filled:before {
   content: "\eae5";
 }
-.icon-dl-python:before {
+.icon-dl-platform-release-notes:before {
   content: "\eae6";
 }
-.icon-dl-qa:before {
+.icon-dl-platform-release-notes-filled:before {
   content: "\eae7";
 }
-.icon-dl-qa-filled:before {
+.icon-dl-play:before {
   content: "\eae8";
 }
-.icon-dl-qa-sampling:before {
+.icon-dl-plus:before {
   content: "\eae9";
 }
-.icon-dl-qualcomm:before {
+.icon-dl-point:before {
   content: "\eaea";
+}
+.icon-dl-poligonal-hand-filled:before {
+  content: "\eaeb";
+}
+.icon-dl-polygon:before {
+  content: "\eaec";
+}
+.icon-dl-polyline:before {
+  content: "\eaed";
+}
+.icon-dl-pose:before {
+  content: "\eaee";
+}
+.icon-dl-previous-page:before {
+  content: "\eaef";
+}
+.icon-dl-private:before {
+  content: "\eaf0";
+}
+.icon-dl-project:before {
+  content: "\eaf1";
+}
+.icon-dl-project-filled:before {
+  content: "\eaf2";
+}
+.icon-dl-pulling:before {
+  content: "\eaf3";
+}
+.icon-dl-pulling-filled:before {
+  content: "\eaf4";
+}
+.icon-dl-python:before {
+  content: "\eaf5";
+}
+.icon-dl-qa:before {
+  content: "\eaf6";
+}
+.icon-dl-qa-filled:before {
+  content: "\eaf7";
+}
+.icon-dl-qa-sampling:before {
+  content: "\eaf8";
+}
+.icon-dl-qualcomm:before {
+  content: "\eaf9";
   color: #3253dc;
 }
 .icon-dl-query:before {
-  content: "\eaeb";
-}
-.icon-dl-question:before {
-  content: "\eaec";
-}
-.icon-dl-queue:before {
-  content: "\eaed";
-}
-.icon-dl-recipe:before {
-  content: "\eaee";
-}
-.icon-dl-recipe-filled:before {
-  content: "\eaef";
-}
-.icon-dl-redo:before {
-  content: "\eaf0";
-}
-.icon-dl-refresh:before {
-  content: "\eaf1";
-}
-.icon-dl-related:before {
-  content: "\eaf2";
-}
-.icon-dl-related-filled:before {
-  content: "\eaf3";
-}
-.icon-dl-replace:before {
-  content: "\eaf4";
-}
-.icon-dl-replay:before {
-  content: "\eaf5";
-}
-.icon-dl-rerun:before {
-  content: "\eaf6";
-}
-.icon-dl-reset:before {
-  content: "\eaf7";
-}
-.icon-dl-resize:before {
-  content: "\eaf8";
-}
-.icon-dl-right-chevron:before {
-  content: "\eaf9";
-}
-.icon-dl-right-next-page:before {
   content: "\eafa";
 }
-.icon-dl-roi-filled:before {
+.icon-dl-question:before {
   content: "\eafb";
 }
-.icon-dl-rotate:before {
+.icon-dl-queue:before {
   content: "\eafc";
 }
-.icon-dl-rounded-github:before {
+.icon-dl-recipe:before {
   content: "\eafd";
 }
-.icon-dl-save:before {
+.icon-dl-recipe-filled:before {
   content: "\eafe";
 }
-.icon-dl-save-as:before {
+.icon-dl-redo:before {
   content: "\eaff";
 }
-.icon-dl-save-filled:before {
+.icon-dl-refresh:before {
   content: "\eb00";
 }
-.icon-dl-scale:before {
+.icon-dl-related:before {
   content: "\eb01";
 }
-.icon-dl-sdk-documentation:before {
+.icon-dl-related-filled:before {
   content: "\eb02";
 }
-.icon-dl-sdk-release-notes:before {
+.icon-dl-replace:before {
   content: "\eb03";
 }
-.icon-dl-search:before {
+.icon-dl-replay:before {
   content: "\eb04";
 }
-.icon-dl-selection:before {
+.icon-dl-rerun:before {
   content: "\eb05";
 }
-.icon-dl-semantic-filled:before {
+.icon-dl-reset:before {
   content: "\eb06";
 }
-.icon-dl-semantic-outline:before {
+.icon-dl-resize:before {
   content: "\eb07";
 }
-.icon-dl-services:before {
+.icon-dl-right-chevron:before {
   content: "\eb08";
 }
-.icon-dl-services-filled:before {
+.icon-dl-right-next-page:before {
   content: "\eb09";
 }
-.icon-dl-settings:before {
+.icon-dl-roi-filled:before {
   content: "\eb0a";
 }
-.icon-dl-show:before {
+.icon-dl-rotate:before {
   content: "\eb0b";
 }
-.icon-dl-show-filled:before {
+.icon-dl-rounded-github:before {
   content: "\eb0c";
 }
-.icon-dl-size-position:before {
+.icon-dl-save:before {
   content: "\eb0d";
 }
-.icon-dl-slack .path1:before {
+.icon-dl-save-as:before {
   content: "\eb0e";
+}
+.icon-dl-save-filled:before {
+  content: "\eb0f";
+}
+.icon-dl-scale:before {
+  content: "\eb10";
+}
+.icon-dl-sdk-documentation:before {
+  content: "\eb11";
+}
+.icon-dl-sdk-release-notes:before {
+  content: "\eb12";
+}
+.icon-dl-search:before {
+  content: "\eb13";
+}
+.icon-dl-selection:before {
+  content: "\eb14";
+}
+.icon-dl-semantic-filled:before {
+  content: "\eb15";
+}
+.icon-dl-semantic-outline:before {
+  content: "\eb16";
+}
+.icon-dl-services:before {
+  content: "\eb17";
+}
+.icon-dl-services-filled:before {
+  content: "\eb18";
+}
+.icon-dl-settings:before {
+  content: "\eb19";
+}
+.icon-dl-show:before {
+  content: "\eb1a";
+}
+.icon-dl-show-filled:before {
+  content: "\eb1b";
+}
+.icon-dl-size-position:before {
+  content: "\eb1c";
+}
+.icon-dl-slack .path1:before {
+  content: "\eb1d";
   color: rgb(224, 30, 90);
 }
 .icon-dl-slack .path2:before {
-  content: "\eb0f";
+  content: "\eb1e";
   margin-left: -1em;
   color: rgb(224, 30, 90);
 }
 .icon-dl-slack .path3:before {
-  content: "\eb10";
+  content: "\eb1f";
   margin-left: -1em;
   color: rgb(54, 197, 240);
 }
 .icon-dl-slack .path4:before {
-  content: "\eb11";
+  content: "\eb20";
   margin-left: -1em;
   color: rgb(54, 197, 240);
 }
 .icon-dl-slack .path5:before {
-  content: "\eb12";
+  content: "\eb21";
   margin-left: -1em;
   color: rgb(46, 182, 125);
 }
 .icon-dl-slack .path6:before {
-  content: "\eb13";
+  content: "\eb22";
   margin-left: -1em;
   color: rgb(46, 182, 125);
 }
 .icon-dl-slack .path7:before {
-  content: "\eb14";
+  content: "\eb23";
   margin-left: -1em;
   color: rgb(236, 178, 46);
 }
 .icon-dl-slack .path8:before {
-  content: "\eb15";
+  content: "\eb24";
   margin-left: -1em;
   color: rgb(236, 178, 46);
 }
 .icon-dl-slack-bw:before {
-  content: "\eb16";
-}
-.icon-dl-smart:before {
-  content: "\eb17";
-}
-.icon-dl-snapshot:before {
-  content: "\eb18";
-}
-.icon-dl-soil:before {
-  content: "\eb19";
-}
-.icon-dl-sort:before {
-  content: "\eb1a";
-}
-.icon-dl-split:before {
-  content: "\eb1b";
-}
-.icon-dl-stars:before {
-  content: "\eb1c";
-}
-.icon-dl-start-pipeline:before {
-  content: "\eb1d";
-}
-.icon-dl-statistics:before {
-  content: "\eb1e";
-}
-.icon-dl-status:before {
-  content: "\eb1f";
-}
-.icon-dl-status-filled:before {
-  content: "\eb20";
-}
-.icon-dl-stop:before {
-  content: "\eb21";
-}
-.icon-dl-string:before {
-  content: "\eb22";
-}
-.icon-dl-superpixel-filled:before {
-  content: "\eb23";
-}
-.icon-dl-support:before {
-  content: "\eb24";
-}
-.icon-dl-sync-dataset:before {
   content: "\eb25";
 }
-.icon-dl-task:before {
+.icon-dl-smart:before {
   content: "\eb26";
 }
-.icon-dl-task-filled:before {
+.icon-dl-snapshot:before {
   content: "\eb27";
 }
-.icon-dl-testtt .path1:before {
+.icon-dl-soil:before {
   content: "\eb28";
+}
+.icon-dl-sort:before {
+  content: "\eb29";
+}
+.icon-dl-split:before {
+  content: "\eb2a";
+}
+.icon-dl-stars:before {
+  content: "\eb2b";
+}
+.icon-dl-start-pipeline:before {
+  content: "\eb2c";
+}
+.icon-dl-statistics:before {
+  content: "\eb2d";
+}
+.icon-dl-status:before {
+  content: "\eb2e";
+}
+.icon-dl-status-filled:before {
+  content: "\eb2f";
+}
+.icon-dl-stop:before {
+  content: "\eb30";
+}
+.icon-dl-string:before {
+  content: "\eb31";
+}
+.icon-dl-superpixel-filled:before {
+  content: "\eb32";
+}
+.icon-dl-support:before {
+  content: "\eb33";
+}
+.icon-dl-sync-dataset:before {
+  content: "\eb34";
+}
+.icon-dl-task:before {
+  content: "\eb35";
+}
+.icon-dl-task-filled:before {
+  content: "\eb36";
+}
+.icon-dl-testtt .path1:before {
+  content: "\eb37";
   color: rgb(0, 0, 0);
   opacity: 0.3;
 }
 .icon-dl-testtt .path2:before {
-  content: "\eb29";
+  content: "\eb38";
   margin-left: -1em;
   color: rgb(0, 0, 0);
   opacity: 0.3;
 }
 .icon-dl-testtt .path3:before {
-  content: "\eb2a";
+  content: "\eb39";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-testtt .path4:before {
-  content: "\eb2b";
+  content: "\eb3a";
   margin-left: -1em;
   color: rgb(247, 208, 70);
 }
 .icon-dl-testtt .path5:before {
-  content: "\eb2c";
+  content: "\eb3b";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-testtt .path6:before {
-  content: "\eb2d";
+  content: "\eb3c";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-testtt .path7:before {
-  content: "\eb2e";
+  content: "\eb3d";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-testtt .path8:before {
-  content: "\eb2f";
+  content: "\eb3e";
   margin-left: -1em;
   color: rgb(247, 208, 70);
 }
 .icon-dl-testtt .path9:before {
-  content: "\eb30";
+  content: "\eb3f";
   margin-left: -1em;
   color: rgb(242, 167, 59);
 }
 .icon-dl-testtt .path10:before {
-  content: "\eb31";
+  content: "\eb40";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-testtt .path11:before {
-  content: "\eb32";
+  content: "\eb41";
   margin-left: -1em;
   color: rgb(242, 167, 59);
 }
 .icon-dl-testtt .path12:before {
-  content: "\eb33";
+  content: "\eb42";
   margin-left: -1em;
   color: rgb(238, 121, 47);
 }
 .icon-dl-testtt .path13:before {
-  content: "\eb34";
+  content: "\eb43";
   margin-left: -1em;
   color: rgb(238, 121, 47);
 }
 .icon-dl-testtt .path14:before {
-  content: "\eb35";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-dl-testtt .path15:before {
-  content: "\eb36";
-  margin-left: -1em;
-  color: rgb(235, 88, 41);
-}
-.icon-dl-testtt .path16:before {
-  content: "\eb37";
-  margin-left: -1em;
-  color: rgb(238, 121, 47);
-}
-.icon-dl-testtt .path17:before {
-  content: "\eb38";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-dl-testtt .path18:before {
-  content: "\eb39";
-  margin-left: -1em;
-  color: rgb(235, 88, 41);
-}
-.icon-dl-testtt .path19:before {
-  content: "\eb3a";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icon-dl-testtt .path20:before {
-  content: "\eb3b";
-  margin-left: -1em;
-  color: rgb(235, 88, 41);
-}
-.icon-dl-testtt .path21:before {
-  content: "\eb3c";
-  margin-left: -1em;
-  color: rgb(234, 51, 38);
-}
-.icon-dl-testtt2 .path1:before {
-  content: "\eb3d";
-  color: rgb(241, 81, 27);
-}
-.icon-dl-testtt2 .path2:before {
-  content: "\eb3e";
-  margin-left: -1em;
-  color: rgb(128, 204, 40);
-}
-.icon-dl-testtt2 .path3:before {
-  content: "\eb3f";
-  margin-left: -1em;
-  color: rgb(0, 173, 239);
-}
-.icon-dl-testtt2 .path4:before {
-  content: "\eb40";
-  margin-left: -1em;
-  color: rgb(251, 188, 9);
-}
-.icon-dl-testtt3:before {
-  content: "\eb41";
-}
-.icon-dl-testtt4 .path1:before {
-  content: "\eb42";
-  color: rgb(0, 0, 0);
-}
-.icon-dl-testtt4 .path2:before {
-  content: "\eb43";
-  margin-left: -1em;
-  color: rgb(247, 208, 70);
-}
-.icon-dl-testtt4 .path3:before {
   content: "\eb44";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
-.icon-dl-testtt4 .path4:before {
+.icon-dl-testtt .path15:before {
   content: "\eb45";
   margin-left: -1em;
-  color: rgb(0, 0, 0);
+  color: rgb(235, 88, 41);
 }
-.icon-dl-testtt4 .path5:before {
+.icon-dl-testtt .path16:before {
   content: "\eb46";
   margin-left: -1em;
-  color: rgb(0, 0, 0);
+  color: rgb(238, 121, 47);
 }
-.icon-dl-testtt4 .path6:before {
+.icon-dl-testtt .path17:before {
   content: "\eb47";
   margin-left: -1em;
-  color: rgb(247, 208, 70);
+  color: rgb(0, 0, 0);
 }
-.icon-dl-testtt4 .path7:before {
+.icon-dl-testtt .path18:before {
   content: "\eb48";
   margin-left: -1em;
-  color: rgb(242, 167, 59);
+  color: rgb(235, 88, 41);
 }
-.icon-dl-testtt4 .path8:before {
+.icon-dl-testtt .path19:before {
   content: "\eb49";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
-.icon-dl-testtt4 .path9:before {
+.icon-dl-testtt .path20:before {
   content: "\eb4a";
+  margin-left: -1em;
+  color: rgb(235, 88, 41);
+}
+.icon-dl-testtt .path21:before {
+  content: "\eb4b";
+  margin-left: -1em;
+  color: rgb(234, 51, 38);
+}
+.icon-dl-testtt2 .path1:before {
+  content: "\eb4c";
+  color: rgb(241, 81, 27);
+}
+.icon-dl-testtt2 .path2:before {
+  content: "\eb4d";
+  margin-left: -1em;
+  color: rgb(128, 204, 40);
+}
+.icon-dl-testtt2 .path3:before {
+  content: "\eb4e";
+  margin-left: -1em;
+  color: rgb(0, 173, 239);
+}
+.icon-dl-testtt2 .path4:before {
+  content: "\eb4f";
+  margin-left: -1em;
+  color: rgb(251, 188, 9);
+}
+.icon-dl-testtt3:before {
+  content: "\eb50";
+}
+.icon-dl-testtt4 .path1:before {
+  content: "\eb51";
+  color: rgb(0, 0, 0);
+}
+.icon-dl-testtt4 .path2:before {
+  content: "\eb52";
+  margin-left: -1em;
+  color: rgb(247, 208, 70);
+}
+.icon-dl-testtt4 .path3:before {
+  content: "\eb53";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-dl-testtt4 .path4:before {
+  content: "\eb54";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-dl-testtt4 .path5:before {
+  content: "\eb55";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-dl-testtt4 .path6:before {
+  content: "\eb56";
+  margin-left: -1em;
+  color: rgb(247, 208, 70);
+}
+.icon-dl-testtt4 .path7:before {
+  content: "\eb57";
+  margin-left: -1em;
+  color: rgb(242, 167, 59);
+}
+.icon-dl-testtt4 .path8:before {
+  content: "\eb58";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-dl-testtt4 .path9:before {
+  content: "\eb59";
   margin-left: -1em;
   color: rgb(242, 167, 59);
 }
 .icon-dl-testtt4 .path10:before {
-  content: "\eb4b";
+  content: "\eb5a";
   margin-left: -1em;
   color: rgb(238, 121, 47);
 }
 .icon-dl-testtt4 .path11:before {
-  content: "\eb4c";
+  content: "\eb5b";
   margin-left: -1em;
   color: rgb(238, 121, 47);
 }
 .icon-dl-testtt4 .path12:before {
-  content: "\eb4d";
+  content: "\eb5c";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-testtt4 .path13:before {
-  content: "\eb4e";
+  content: "\eb5d";
   margin-left: -1em;
   color: rgb(235, 88, 41);
 }
 .icon-dl-testtt4 .path14:before {
-  content: "\eb4f";
+  content: "\eb5e";
   margin-left: -1em;
   color: rgb(238, 121, 47);
 }
 .icon-dl-testtt4 .path15:before {
-  content: "\eb50";
+  content: "\eb5f";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-testtt4 .path16:before {
-  content: "\eb51";
+  content: "\eb60";
   margin-left: -1em;
   color: rgb(235, 88, 41);
 }
 .icon-dl-testtt4 .path17:before {
-  content: "\eb52";
+  content: "\eb61";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icon-dl-testtt4 .path18:before {
-  content: "\eb53";
+  content: "\eb62";
   margin-left: -1em;
   color: rgb(235, 88, 41);
 }
 .icon-dl-testtt4 .path19:before {
-  content: "\eb54";
+  content: "\eb63";
   margin-left: -1em;
   color: rgb(234, 51, 38);
 }
 .icon-dl-text:before {
-  content: "\eb55";
+  content: "\eb64";
 }
 .icon-dl-text-file:before {
-  content: "\eb56";
+  content: "\eb65";
 }
 .icon-dl-thumbnail:before {
-  content: "\eb57";
+  content: "\eb66";
 }
 .icon-dl-time:before {
-  content: "\eb58";
+  content: "\eb67";
 }
 .icon-dl-timer:before {
-  content: "\eb59";
+  content: "\eb68";
 }
 .icon-dl-top-view:before {
-  content: "\eb5a";
+  content: "\eb69";
 }
 .icon-dl-train:before {
-  content: "\eb5b";
+  content: "\eb6a";
 }
 .icon-dl-translate:before {
-  content: "\eb5c";
+  content: "\eb6b";
 }
 .icon-dl-trigger:before {
-  content: "\eb5d";
+  content: "\eb6c";
 }
 .icon-dl-trigger-filled:before {
-  content: "\eb5e";
+  content: "\eb6d";
 }
 .icon-dl-two-lines:before {
-  content: "\eb5f";
+  content: "\eb6e";
 }
 .icon-dl-ultralytics .path1:before {
-  content: "\eb60";
+  content: "\eb6f";
   color: rgb(0, 0, 0);
 }
 .icon-dl-ultralytics .path2:before {
-  content: "\eb61";
+  content: "\eb70";
   margin-left: -1em;
   color: rgb(11, 35, 169);
 }
 .icon-dl-ultralytics-dark:before {
-  content: "\eb62";
+  content: "\eb71";
   color: #fff;
 }
 .icon-dl-ultralytics-light:before {
-  content: "\eb63";
+  content: "\eb72";
 }
 .icon-dl-undefined-label:before {
-  content: "\eb64";
+  content: "\eb73";
 }
 .icon-dl-undo:before {
-  content: "\eb65";
+  content: "\eb74";
 }
 .icon-dl-unionpay .path1:before {
-  content: "\eb66";
+  content: "\eb75";
   color: rgb(255, 255, 255);
 }
 .icon-dl-unionpay .path2:before {
-  content: "\eb67";
+  content: "\eb76";
   margin-left: -1em;
   color: rgb(228, 228, 228);
 }
 .icon-dl-unionpay .path3:before {
-  content: "\eb68";
+  content: "\eb77";
   margin-left: -1em;
   color: rgb(0, 157, 165);
 }
 .icon-dl-unionpay .path4:before {
-  content: "\eb69";
+  content: "\eb78";
   margin-left: -1em;
   color: rgb(2, 204, 204);
 }
 .icon-dl-unionpay .path5:before {
-  content: "\eb6a";
+  content: "\eb79";
   margin-left: -1em;
   color: rgb(2, 204, 204);
 }
 .icon-dl-unionpay .path6:before {
-  content: "\eb6b";
+  content: "\eb7a";
   margin-left: -1em;
   color: rgb(0, 157, 165);
 }
 .icon-dl-unionpay .path7:before {
-  content: "\eb6c";
+  content: "\eb7b";
   margin-left: -1em;
   color: rgb(2, 204, 204);
 }
 .icon-dl-unionpay .path8:before {
-  content: "\eb6d";
+  content: "\eb7c";
   margin-left: -1em;
   color: rgb(255, 127, 41);
 }
 .icon-dl-unionpay .path9:before {
-  content: "\eb6e";
+  content: "\eb7d";
   margin-left: -1em;
   color: rgb(234, 34, 39);
 }
 .icon-dl-unionpay .path10:before {
-  content: "\eb6f";
+  content: "\eb7e";
   margin-left: -1em;
   color: rgb(234, 34, 39);
 }
 .icon-dl-unionpay .path11:before {
-  content: "\eb70";
+  content: "\eb7f";
   margin-left: -1em;
   color: rgb(165, 0, 47);
 }
 .icon-dl-unionpay .path12:before {
-  content: "\eb71";
+  content: "\eb80";
   margin-left: -1em;
   color: rgb(234, 34, 39);
 }
 .icon-dl-unionpay .path13:before {
-  content: "\eb72";
+  content: "\eb81";
   margin-left: -1em;
   color: rgb(234, 34, 39);
 }
 .icon-dl-unionpay .path14:before {
-  content: "\eb73";
+  content: "\eb82";
   margin-left: -1em;
   color: rgb(19, 152, 226);
 }
 .icon-dl-unionpay .path15:before {
-  content: "\eb74";
+  content: "\eb83";
   margin-left: -1em;
   color: rgb(8, 114, 185);
 }
 .icon-dl-unionpay .path16:before {
-  content: "\eb75";
+  content: "\eb84";
   margin-left: -1em;
   color: rgb(5, 80, 147);
 }
 .icon-dl-unionpay .path17:before {
-  content: "\eb76";
+  content: "\eb85";
   margin-left: -1em;
   color: rgb(8, 114, 185);
 }
 .icon-dl-unionpay .path18:before {
-  content: "\eb77";
+  content: "\eb86";
   margin-left: -1em;
   color: rgb(5, 80, 147);
 }
 .icon-dl-unionpay .path19:before {
-  content: "\eb78";
+  content: "\eb87";
   margin-left: -1em;
   color: rgb(165, 0, 47);
 }
 .icon-dl-unite:before {
-  content: "\eb79";
+  content: "\eb88";
 }
 .icon-dl-unmasked-pixel-filled:before {
-  content: "\eb7a";
+  content: "\eb89";
 }
 .icon-dl-unsupported-file:before {
-  content: "\eb7b";
+  content: "\eb8a";
 }
 .icon-dl-unsupported-file-filled:before {
-  content: "\eb7c";
+  content: "\eb8b";
 }
 .icon-dl-up-chevron:before {
-  content: "\eb7d";
+  content: "\eb8c";
 }
 .icon-dl-upload:before {
-  content: "\eb7e";
+  content: "\eb8d";
 }
 .icon-dl-usage:before {
-  content: "\eb7f";
+  content: "\eb8e";
 }
 .icon-dl-variable:before {
-  content: "\eb80";
+  content: "\eb9e";
 }
 .icon-dl-vehicles:before {
-  content: "\eb81";
+  content: "\eb9f";
 }
 .icon-dl-version:before {
-  content: "\eb82";
+  content: "\eba0";
 }
 .icon-dl-video-end:before {
-  content: "\eb83";
+  content: "\eba1";
 }
 .icon-dl-video-filled:before {
-  content: "\eb84";
+  content: "\eba2";
 }
 .icon-dl-view:before {
-  content: "\eb85";
+  content: "\eba3";
 }
 .icon-dl-visa .path1:before {
-  content: "\eb86";
+  content: "\eba4";
   color: rgb(255, 255, 255);
 }
 .icon-dl-visa .path2:before {
-  content: "\eb87";
+  content: "\ebab";
   margin-left: -1em;
   color: rgb(228, 228, 228);
 }
 .icon-dl-visa .path3:before {
-  content: "\eb88";
+  content: "\ebac";
   margin-left: -1em;
   color: rgb(26, 42, 223);
 }
 .icon-dl-window:before {
-  content: "\eb89";
+  content: "\eba5";
 }
 .icon-dl-workflows:before {
-  content: "\eb8a";
+  content: "\eba6";
 }
 .icon-dl-workflows-outline:before {
-  content: "\eb8b";
+  content: "\eba7";
 }
 .icon-dl-youtube:before {
-  content: "\eb8c";
+  content: "\eba8";
 }
 .icon-dl-zoom-in:before {
-  content: "\eb8d";
+  content: "\eba9";
 }
 .icon-dl-zoom-out:before {
-  content: "\eb8e";
+  content: "\ebaa";
 }
