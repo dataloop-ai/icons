@@ -38,7 +38,5 @@ export var COLORED_ICONS;
     COLORED_ICONS["AI21_LABS_LIGHT"] = "ai21-labs-light";
     COLORED_ICONS["AI21_LABS_DARK"] = "ai21-labs-dark";
     COLORED_ICONS["COHERE"] = "cohere";
-    COLORED_ICONS["TESTTT"] = "testtt";
-    COLORED_ICONS["TESTTT2"] = "testtt2";
-    COLORED_ICONS["TESTTT4"] = "testtt4";
+    COLORED_ICONS["MISTRAL_AI"] = "mistral-ai";
 })(COLORED_ICONS || (COLORED_ICONS = {}));

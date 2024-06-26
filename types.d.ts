@@ -37,7 +37,5 @@ export declare enum COLORED_ICONS {
     AI21_LABS_LIGHT = "ai21-labs-light",
     AI21_LABS_DARK = "ai21-labs-dark",
     COHERE = "cohere",
-    TESTTT = "testtt",
-    TESTTT2 = "testtt2",
-    TESTTT4 = "testtt4"
+    MISTRAL_AI = "mistral-ai"
 }
