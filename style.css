@@ -1,9 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:
-    url('fonts/dl-icons.ttf?87fhe3') format('truetype'),
-    url('fonts/dl-icons.woff?87fhe3') format('woff'),
-    url('fonts/dl-icons.svg?87fhe3#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?np65xq');
+  src:  url('fonts/dl-icons.eot?np65xq#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?np65xq') format('truetype'),
+    url('fonts/dl-icons.woff?np65xq') format('woff'),
+    url('fonts/dl-icons.svg?np65xq#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
