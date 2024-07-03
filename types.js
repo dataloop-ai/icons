@@ -39,4 +39,8 @@ export var COLORED_ICONS;
     COLORED_ICONS["AI21_LABS_DARK"] = "ai21-labs-dark";
     COLORED_ICONS["COHERE"] = "cohere";
     COLORED_ICONS["MISTRAL_AI"] = "mistral-ai";
+    COLORED_ICONS["PALM"] = "palm";
+    COLORED_ICONS["STABILITY_AI"] = "stability-ai";
+    COLORED_ICONS["VERTEX_AI"] = "vertex-ai";
+    COLORED_ICONS["JUPYTER"] = "jupyter";
 })(COLORED_ICONS || (COLORED_ICONS = {}));
