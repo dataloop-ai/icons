@@ -41,5 +41,6 @@ export declare enum COLORED_ICONS {
     PALM = "palm",
     STABILITY_AI = "stability-ai",
     VERTEX_AI = "vertex-ai",
-    JUPYTER = "jupyter"
+    JUPYTER = "jupyter",
+    PANDAS = "pandas"
 }

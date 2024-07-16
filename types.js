@@ -43,4 +43,5 @@ export var COLORED_ICONS;
     COLORED_ICONS["STABILITY_AI"] = "stability-ai";
     COLORED_ICONS["VERTEX_AI"] = "vertex-ai";
     COLORED_ICONS["JUPYTER"] = "jupyter";
+    COLORED_ICONS["PANDAS"] = "pandas";
 })(COLORED_ICONS || (COLORED_ICONS = {}));
