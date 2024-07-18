@@ -44,5 +44,6 @@ export enum COLORED_ICONS {
     JUPYTER = 'jupyter',
     PANDAS = 'pandas',
     CORE42 = 'core42',
+    BIG_CODE = 'big-code',
 
 }

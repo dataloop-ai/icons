@@ -43,5 +43,6 @@ export declare enum COLORED_ICONS {
     VERTEX_AI = "vertex-ai",
     JUPYTER = "jupyter",
     PANDAS = "pandas",
-    CORE42 = "core42"
+    CORE42 = "core42",
+    BIG_CODE = "big-code"
 }

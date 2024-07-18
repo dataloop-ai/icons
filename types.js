@@ -45,4 +45,5 @@ export var COLORED_ICONS;
     COLORED_ICONS["JUPYTER"] = "jupyter";
     COLORED_ICONS["PANDAS"] = "pandas";
     COLORED_ICONS["CORE42"] = "core42";
+    COLORED_ICONS["BIG_CODE"] = "big-code";
 })(COLORED_ICONS || (COLORED_ICONS = {}));
