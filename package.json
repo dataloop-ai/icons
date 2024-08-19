@@ -27,7 +27,7 @@
     "lint:fix": "eslint ./src --ext .ts,.vue --fix"
   },
   "devDependencies": {
-    "@dataloop-ai/components": "^0.20.44",
+    "@dataloop-ai/components": "^0.20.55",
     "@types/jsdom": "^21.1.0",
     "@types/node": "^18.14.2",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
