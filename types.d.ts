@@ -44,5 +44,7 @@ export declare enum COLORED_ICONS {
     JUPYTER = "jupyter",
     PANDAS = "pandas",
     CORE42 = "core42",
-    BIG_CODE = "big-code"
+    BIG_CODE = "big-code",
+    SPEECH_BRAIN = "speech-brain",
+    SMART_SEARCH_TEMPORARY = "smart-search-temporary"
 }

@@ -45,5 +45,7 @@ export enum COLORED_ICONS {
     PANDAS = 'pandas',
     CORE42 = 'core42',
     BIG_CODE = 'big-code',
+    SPEECH_BRAIN = 'speech-brain',
+    SMART_SEARCH_TEMPORARY = 'smart-search-temporary',
 
 }

@@ -46,4 +46,6 @@ export var COLORED_ICONS;
     COLORED_ICONS["PANDAS"] = "pandas";
     COLORED_ICONS["CORE42"] = "core42";
     COLORED_ICONS["BIG_CODE"] = "big-code";
+    COLORED_ICONS["SPEECH_BRAIN"] = "speech-brain";
+    COLORED_ICONS["SMART_SEARCH_TEMPORARY"] = "smart-search-temporary";
 })(COLORED_ICONS || (COLORED_ICONS = {}));
