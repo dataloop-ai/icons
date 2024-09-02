@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?df6nbz');
-  src:  url('fonts/dl-icons.eot?df6nbz#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?df6nbz') format('truetype'),
-    url('fonts/dl-icons.woff?df6nbz') format('woff'),
-    url('fonts/dl-icons.svg?df6nbz#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?p0xef3');
+  src:  url('fonts/dl-icons.eot?p0xef3#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?p0xef3') format('truetype'),
+    url('fonts/dl-icons.woff?p0xef3') format('woff'),
+    url('fonts/dl-icons.svg?p0xef3#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -2242,87 +2242,87 @@
 .icon-dl-queue:before {
   content: "\eb46";
 }
-.icon-dl-quick-selection:before {
+.icon-dl-recipe:before {
   content: "\eb47";
 }
-.icon-dl-recipe:before {
+.icon-dl-recipe-filled:before {
   content: "\eb48";
 }
-.icon-dl-recipe-filled:before {
+.icon-dl-recognize-celebrities:before {
   content: "\eb49";
 }
-.icon-dl-recognize-celebrities:before {
+.icon-dl-redo:before {
   content: "\eb4a";
 }
-.icon-dl-redo:before {
+.icon-dl-refresh:before {
   content: "\eb4b";
 }
-.icon-dl-refresh:before {
+.icon-dl-related:before {
   content: "\eb4c";
 }
-.icon-dl-related:before {
+.icon-dl-related-filled:before {
   content: "\eb4d";
 }
-.icon-dl-related-filled:before {
+.icon-dl-reload:before {
   content: "\eb4e";
 }
-.icon-dl-reload:before {
+.icon-dl-rename:before {
   content: "\eb4f";
 }
-.icon-dl-rename:before {
+.icon-dl-reopen:before {
   content: "\eb50";
 }
-.icon-dl-reopen:before {
+.icon-dl-replace:before {
   content: "\eb51";
 }
-.icon-dl-replace:before {
+.icon-dl-replay:before {
   content: "\eb52";
 }
-.icon-dl-replay:before {
+.icon-dl-rerun:before {
   content: "\eb53";
 }
-.icon-dl-rerun:before {
+.icon-dl-reset:before {
   content: "\eb54";
 }
-.icon-dl-reset:before {
+.icon-dl-resize:before {
   content: "\eb55";
 }
-.icon-dl-resize:before {
+.icon-dl-resolution-adjustment:before {
   content: "\eb56";
 }
-.icon-dl-resolution-adjustment:before {
+.icon-dl-restore:before {
   content: "\eb57";
 }
-.icon-dl-restore:before {
+.icon-dl-review-task:before {
   content: "\eb58";
 }
-.icon-dl-review-task:before {
+.icon-dl-review-task-fill:before {
   content: "\eb59";
 }
-.icon-dl-review-task-fill:before {
+.icon-dl-right-chevron:before {
   content: "\eb5a";
 }
-.icon-dl-right-chevron:before {
+.icon-dl-right-next-page:before {
   content: "\eb5b";
 }
-.icon-dl-right-next-page:before {
+.icon-dl-roi-filled:before {
   content: "\eb5c";
 }
-.icon-dl-roi-filled:before {
+.icon-dl-rotate:before {
   content: "\eb5d";
 }
-.icon-dl-rotate:before {
+.icon-dl-rounded-github:before {
   content: "\eb5e";
 }
-.icon-dl-rounded-github:before {
+.icon-dl-runway:before {
   content: "\eb5f";
 }
-.icon-dl-runway:before {
-  content: "\eb60";
-}
 .icon-dl-salesforce:before {
-  content: "\eb61";
+  content: "\eb60";
   color: #009ddc;
+}
+.icon-dl-sam:before {
+  content: "\eb61";
 }
 .icon-dl-save:before {
   content: "\eb62";
