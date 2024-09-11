@@ -47,5 +47,6 @@ export declare enum COLORED_ICONS {
     BIG_CODE = "big-code",
     SPEECH_BRAIN = "speech-brain",
     SMART_SEARCH_TEMPORARY = "smart-search-temporary",
-    SNOWFLAKE = "snowflake"
+    SNOWFLAKE = "snowflake",
+    GRADIO = "gradio"
 }

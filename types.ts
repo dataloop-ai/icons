@@ -48,4 +48,5 @@ export enum COLORED_ICONS {
     SPEECH_BRAIN = 'speech-brain',
     SMART_SEARCH_TEMPORARY = 'smart-search-temporary',
     SNOWFLAKE = 'snowflake',
+    GRADIO = 'gradio',
 }
