@@ -50,4 +50,5 @@ export var COLORED_ICONS;
     COLORED_ICONS["SMART_SEARCH_TEMPORARY"] = "smart-search-temporary";
     COLORED_ICONS["SNOWFLAKE"] = "snowflake";
     COLORED_ICONS["GRADIO"] = "gradio";
+    COLORED_ICONS["MONGO_DB"] = "mongodb";
 })(COLORED_ICONS || (COLORED_ICONS = {}));
