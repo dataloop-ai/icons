@@ -50,4 +50,5 @@ export enum COLORED_ICONS {
     SNOWFLAKE = 'snowflake',
     GRADIO = 'gradio',
     MONGO_DB = 'mongodb',
+    DATABRICKS = 'databricks',
 }

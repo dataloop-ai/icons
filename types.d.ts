@@ -49,5 +49,6 @@ export declare enum COLORED_ICONS {
     SMART_SEARCH_TEMPORARY = "smart-search-temporary",
     SNOWFLAKE = "snowflake",
     GRADIO = "gradio",
-    MONGO_DB = "mongodb"
+    MONGO_DB = "mongodb",
+    DATABRICKS = "databricks"
 }
