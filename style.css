@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?8l1yub');
-  src:  url('fonts/dl-icons.eot?8l1yub#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?8l1yub') format('truetype'),
-    url('fonts/dl-icons.woff?8l1yub') format('woff'),
-    url('fonts/dl-icons.svg?8l1yub#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?1suhee');
+  src:  url('fonts/dl-icons.eot?1suhee#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?1suhee') format('truetype'),
+    url('fonts/dl-icons.woff?1suhee') format('woff'),
+    url('fonts/dl-icons.svg?1suhee#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -2401,6 +2401,7 @@
 }
 .icon-dl-singlestore:before {
   content: "\eb7a";
+  color: #fff;
 }
 .icon-dl-singlestore-dark:before {
   content: "\eb7b";
