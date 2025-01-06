@@ -51,4 +51,5 @@ export enum COLORED_ICONS {
     GRADIO = 'gradio',
     MONGO_DB = 'mongodb',
     DATABRICKS = 'databricks',
+    OPENCV = 'opencv',
 }
