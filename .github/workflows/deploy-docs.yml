@@ -45,8 +45,9 @@ jobs:
           ls -lah ./dist || echo "❌ dist folder NOT found!"
 
       - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
+          name: github-pages
           path: './dist'
 
       - name: List Uploaded Artifacts
@@ -59,3 +60,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+        with:
+          artifact_name: github-pages
