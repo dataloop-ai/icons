@@ -35,15 +35,26 @@ jobs:
           cp -r assets public
           npm ci
           npm run build
-      - name: Verify Build Output
-        run: ls -l ./dist # This checks if the dist folder exists
+      - name: Debug Build Output
+        run: |
+          echo "Checking if build output exists..."
+          ls -lah ./dist || echo "❌ dist folder NOT found!"
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
           path: './dist'
+
+      - name: List Uploaded Artifacts
+        run: |
+          echo "Checking uploaded artifacts..."
+          gh run view --json artifacts || echo "❌ No artifacts found!"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
         with:
-          artifact_name: github-pages # This must match the name in upload step
+          artifact_name: github-pages
