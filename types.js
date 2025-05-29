@@ -53,4 +53,5 @@ export var COLORED_ICONS;
     COLORED_ICONS["MONGO_DB"] = "mongodb";
     COLORED_ICONS["DATABRICKS"] = "databricks";
     COLORED_ICONS["OPENCV"] = "opencv";
+    COLORED_ICONS["GOOGLE25"] = "google25";
 })(COLORED_ICONS || (COLORED_ICONS = {}));
