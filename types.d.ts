@@ -51,6 +51,5 @@ export declare enum COLORED_ICONS {
     GRADIO = "gradio",
     MONGO_DB = "mongodb",
     DATABRICKS = "databricks",
-    OPENCV = "opencv",
-    GOOGLE25 = "google25"
+    OPENCV = "opencv"
 }
