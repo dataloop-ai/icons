@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?5icx2h');
-  src:  url('fonts/dl-icons.eot?5icx2h#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?5icx2h') format('truetype'),
-    url('fonts/dl-icons.woff?5icx2h') format('woff'),
-    url('fonts/dl-icons.svg?5icx2h#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?6uig04');
+  src:  url('fonts/dl-icons.eot?6uig04#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?6uig04') format('truetype'),
+    url('fonts/dl-icons.woff?6uig04') format('woff'),
+    url('fonts/dl-icons.svg?6uig04#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -2772,355 +2772,361 @@
 .icon-dl-timer:before {
   content: "\ebe0";
 }
-.icon-dl-toggle-off-filled:before {
+.icon-dl-timer-completed:before {
   content: "\ebe1";
 }
-.icon-dl-toggle-off-outline:before {
+.icon-dl-timer-start:before {
   content: "\ebe2";
 }
-.icon-dl-toggle-on-filled:before {
+.icon-dl-toggle-off-filled:before {
   content: "\ebe3";
 }
-.icon-dl-toggle-on-outline:before {
+.icon-dl-toggle-off-outline:before {
   content: "\ebe4";
 }
-.icon-dl-top-view:before {
+.icon-dl-toggle-on-filled:before {
   content: "\ebe5";
 }
-.icon-dl-train:before {
+.icon-dl-toggle-on-outline:before {
   content: "\ebe6";
 }
-.icon-dl-translate:before {
+.icon-dl-top-view:before {
   content: "\ebe7";
 }
-.icon-dl-trigger:before {
+.icon-dl-train:before {
   content: "\ebe8";
 }
-.icon-dl-trigger-filled:before {
+.icon-dl-translate:before {
   content: "\ebe9";
 }
-.icon-dl-two-lines:before {
+.icon-dl-trigger:before {
   content: "\ebea";
 }
-.icon-dl-txt-file:before {
+.icon-dl-trigger-filled:before {
   content: "\ebeb";
 }
-.icon-dl-ultralytics .path1:before {
+.icon-dl-two-lines:before {
   content: "\ebec";
+}
+.icon-dl-txt-file:before {
+  content: "\ebed";
+}
+.icon-dl-ultralytics .path1:before {
+  content: "\ebee";
   color: rgb(0, 0, 0);
 }
 .icon-dl-ultralytics .path2:before {
-  content: "\ebed";
+  content: "\ebef";
   margin-left: -1em;
   color: rgb(11, 35, 169);
 }
 .icon-dl-ultralytics-dark:before {
-  content: "\ebee";
+  content: "\ebf0";
   color: #fff;
 }
 .icon-dl-ultralytics-light:before {
-  content: "\ebef";
-}
-.icon-dl-undefined-label:before {
-  content: "\ebf0";
-}
-.icon-dl-undo:before {
   content: "\ebf1";
 }
-.icon-dl-unionpay .path1:before {
+.icon-dl-undefined-label:before {
   content: "\ebf2";
+}
+.icon-dl-undo:before {
+  content: "\ebf3";
+}
+.icon-dl-unionpay .path1:before {
+  content: "\ebf4";
   color: rgb(255, 255, 255);
 }
 .icon-dl-unionpay .path2:before {
-  content: "\ebf3";
+  content: "\ebf5";
   margin-left: -1em;
   color: rgb(228, 228, 228);
 }
 .icon-dl-unionpay .path3:before {
-  content: "\ebf4";
+  content: "\ebf6";
   margin-left: -1em;
   color: rgb(0, 157, 165);
 }
 .icon-dl-unionpay .path4:before {
-  content: "\ebf5";
+  content: "\ebf7";
   margin-left: -1em;
   color: rgb(2, 204, 204);
 }
 .icon-dl-unionpay .path5:before {
-  content: "\ebf6";
-  margin-left: -1em;
-  color: rgb(2, 204, 204);
-}
-.icon-dl-unionpay .path6:before {
-  content: "\ebf7";
-  margin-left: -1em;
-  color: rgb(0, 157, 165);
-}
-.icon-dl-unionpay .path7:before {
   content: "\ebf8";
   margin-left: -1em;
   color: rgb(2, 204, 204);
 }
-.icon-dl-unionpay .path8:before {
+.icon-dl-unionpay .path6:before {
   content: "\ebf9";
+  margin-left: -1em;
+  color: rgb(0, 157, 165);
+}
+.icon-dl-unionpay .path7:before {
+  content: "\ebfa";
+  margin-left: -1em;
+  color: rgb(2, 204, 204);
+}
+.icon-dl-unionpay .path8:before {
+  content: "\ebfb";
   margin-left: -1em;
   color: rgb(255, 127, 41);
 }
 .icon-dl-unionpay .path9:before {
-  content: "\ebfa";
+  content: "\ebfc";
   margin-left: -1em;
   color: rgb(234, 34, 39);
 }
 .icon-dl-unionpay .path10:before {
-  content: "\ebfb";
-  margin-left: -1em;
-  color: rgb(234, 34, 39);
-}
-.icon-dl-unionpay .path11:before {
-  content: "\ebfc";
-  margin-left: -1em;
-  color: rgb(165, 0, 47);
-}
-.icon-dl-unionpay .path12:before {
   content: "\ebfd";
   margin-left: -1em;
   color: rgb(234, 34, 39);
 }
-.icon-dl-unionpay .path13:before {
+.icon-dl-unionpay .path11:before {
   content: "\ebfe";
+  margin-left: -1em;
+  color: rgb(165, 0, 47);
+}
+.icon-dl-unionpay .path12:before {
+  content: "\ebff";
+  margin-left: -1em;
+  color: rgb(234, 34, 39);
+}
+.icon-dl-unionpay .path13:before {
+  content: "\ec00";
   margin-left: -1em;
   color: rgb(234, 34, 39);
 }
 .icon-dl-unionpay .path14:before {
-  content: "\ebff";
+  content: "\ec01";
   margin-left: -1em;
   color: rgb(19, 152, 226);
 }
 .icon-dl-unionpay .path15:before {
-  content: "\ec00";
-  margin-left: -1em;
-  color: rgb(8, 114, 185);
-}
-.icon-dl-unionpay .path16:before {
-  content: "\ec01";
-  margin-left: -1em;
-  color: rgb(5, 80, 147);
-}
-.icon-dl-unionpay .path17:before {
   content: "\ec02";
   margin-left: -1em;
   color: rgb(8, 114, 185);
 }
-.icon-dl-unionpay .path18:before {
+.icon-dl-unionpay .path16:before {
   content: "\ec03";
   margin-left: -1em;
   color: rgb(5, 80, 147);
 }
-.icon-dl-unionpay .path19:before {
+.icon-dl-unionpay .path17:before {
   content: "\ec04";
+  margin-left: -1em;
+  color: rgb(8, 114, 185);
+}
+.icon-dl-unionpay .path18:before {
+  content: "\ec05";
+  margin-left: -1em;
+  color: rgb(5, 80, 147);
+}
+.icon-dl-unionpay .path19:before {
+  content: "\ec06";
   margin-left: -1em;
   color: rgb(165, 0, 47);
 }
 .icon-dl-unite:before {
-  content: "\ec05";
-}
-.icon-dl-unmasked-pixel-filled:before {
-  content: "\ec06";
-}
-.icon-dl-unpin:before {
   content: "\ec07";
 }
-.icon-dl-unpin-filled:before {
+.icon-dl-unmasked-pixel-filled:before {
   content: "\ec08";
 }
-.icon-dl-unstucturedio:before {
+.icon-dl-unpin:before {
   content: "\ec09";
 }
-.icon-dl-unsupported-file:before {
+.icon-dl-unpin-filled:before {
   content: "\ec0a";
 }
-.icon-dl-unsupported-file-filled:before {
+.icon-dl-unstucturedio:before {
   content: "\ec0b";
 }
-.icon-dl-unum:before {
+.icon-dl-unsupported-file:before {
   content: "\ec0c";
 }
-.icon-dl-up-chevron:before {
+.icon-dl-unsupported-file-filled:before {
   content: "\ec0d";
 }
-.icon-dl-upload:before {
+.icon-dl-unum:before {
   content: "\ec0e";
 }
-.icon-dl-usage:before {
+.icon-dl-up-chevron:before {
   content: "\ec0f";
 }
-.icon-dl-variable:before {
+.icon-dl-upload:before {
   content: "\ec10";
 }
-.icon-dl-vehicles:before {
+.icon-dl-usage:before {
   content: "\ec11";
 }
-.icon-dl-version:before {
+.icon-dl-variable:before {
   content: "\ec12";
 }
-.icon-dl-vertex-ai .path1:before {
+.icon-dl-vehicles:before {
   content: "\ec13";
+}
+.icon-dl-version:before {
+  content: "\ec14";
+}
+.icon-dl-vertex-ai .path1:before {
+  content: "\ec15";
   color: rgb(102, 157, 246);
 }
 .icon-dl-vertex-ai .path2:before {
-  content: "\ec14";
-  margin-left: -1em;
-  color: rgb(174, 203, 250);
-}
-.icon-dl-vertex-ai .path3:before {
-  content: "\ec15";
-  margin-left: -1em;
-  color: rgb(66, 133, 244);
-}
-.icon-dl-vertex-ai .path4:before {
   content: "\ec16";
   margin-left: -1em;
   color: rgb(174, 203, 250);
 }
-.icon-dl-vertex-ai .path5:before {
+.icon-dl-vertex-ai .path3:before {
   content: "\ec17";
   margin-left: -1em;
-  color: rgb(174, 203, 250);
+  color: rgb(66, 133, 244);
 }
-.icon-dl-vertex-ai .path6:before {
+.icon-dl-vertex-ai .path4:before {
   content: "\ec18";
   margin-left: -1em;
   color: rgb(174, 203, 250);
 }
-.icon-dl-vertex-ai .path7:before {
+.icon-dl-vertex-ai .path5:before {
   content: "\ec19";
   margin-left: -1em;
   color: rgb(174, 203, 250);
 }
-.icon-dl-vertex-ai .path8:before {
+.icon-dl-vertex-ai .path6:before {
   content: "\ec1a";
   margin-left: -1em;
-  color: rgb(66, 133, 244);
+  color: rgb(174, 203, 250);
 }
-.icon-dl-vertex-ai .path9:before {
+.icon-dl-vertex-ai .path7:before {
   content: "\ec1b";
   margin-left: -1em;
-  color: rgb(66, 133, 244);
+  color: rgb(174, 203, 250);
 }
-.icon-dl-vertex-ai .path10:before {
+.icon-dl-vertex-ai .path8:before {
   content: "\ec1c";
   margin-left: -1em;
   color: rgb(66, 133, 244);
 }
-.icon-dl-vertex-ai .path11:before {
+.icon-dl-vertex-ai .path9:before {
   content: "\ec1d";
   margin-left: -1em;
   color: rgb(66, 133, 244);
 }
-.icon-dl-vertex-ai .path12:before {
+.icon-dl-vertex-ai .path10:before {
   content: "\ec1e";
   margin-left: -1em;
-  color: rgb(102, 157, 246);
+  color: rgb(66, 133, 244);
 }
-.icon-dl-vertex-ai .path13:before {
+.icon-dl-vertex-ai .path11:before {
   content: "\ec1f";
   margin-left: -1em;
-  color: rgb(102, 157, 246);
+  color: rgb(66, 133, 244);
 }
-.icon-dl-vertex-ai .path14:before {
+.icon-dl-vertex-ai .path12:before {
   content: "\ec20";
   margin-left: -1em;
   color: rgb(102, 157, 246);
 }
-.icon-dl-vertex-ai .path15:before {
+.icon-dl-vertex-ai .path13:before {
   content: "\ec21";
   margin-left: -1em;
   color: rgb(102, 157, 246);
 }
-.icon-dl-vertex-ai .path16:before {
+.icon-dl-vertex-ai .path14:before {
   content: "\ec22";
   margin-left: -1em;
-  color: rgb(66, 133, 244);
+  color: rgb(102, 157, 246);
 }
-.icon-dl-vertex-ai .path17:before {
+.icon-dl-vertex-ai .path15:before {
   content: "\ec23";
   margin-left: -1em;
-  color: rgb(66, 133, 244);
+  color: rgb(102, 157, 246);
 }
-.icon-dl-vertex-ai .path18:before {
+.icon-dl-vertex-ai .path16:before {
   content: "\ec24";
   margin-left: -1em;
   color: rgb(66, 133, 244);
 }
-.icon-dl-vertex-ai .path19:before {
+.icon-dl-vertex-ai .path17:before {
   content: "\ec25";
   margin-left: -1em;
   color: rgb(66, 133, 244);
 }
-.icon-dl-vertex-ai .path20:before {
+.icon-dl-vertex-ai .path18:before {
   content: "\ec26";
   margin-left: -1em;
-  color: rgb(174, 203, 250);
+  color: rgb(66, 133, 244);
 }
-.icon-dl-vertex-ai .path21:before {
+.icon-dl-vertex-ai .path19:before {
   content: "\ec27";
   margin-left: -1em;
-  color: rgb(174, 203, 250);
+  color: rgb(66, 133, 244);
 }
-.icon-dl-vertex-ai .path22:before {
+.icon-dl-vertex-ai .path20:before {
   content: "\ec28";
   margin-left: -1em;
   color: rgb(174, 203, 250);
 }
-.icon-dl-vertex-ai .path23:before {
+.icon-dl-vertex-ai .path21:before {
   content: "\ec29";
   margin-left: -1em;
   color: rgb(174, 203, 250);
 }
-.icon-dl-video-end:before {
+.icon-dl-vertex-ai .path22:before {
   content: "\ec2a";
+  margin-left: -1em;
+  color: rgb(174, 203, 250);
 }
-.icon-dl-video-filled:before {
+.icon-dl-vertex-ai .path23:before {
   content: "\ec2b";
+  margin-left: -1em;
+  color: rgb(174, 203, 250);
 }
-.icon-dl-view:before {
+.icon-dl-video-end:before {
   content: "\ec2c";
 }
-.icon-dl-visa .path1:before {
+.icon-dl-video-filled:before {
   content: "\ec2d";
+}
+.icon-dl-view:before {
+  content: "\ec2e";
+}
+.icon-dl-visa .path1:before {
+  content: "\ec2f";
   color: rgb(255, 255, 255);
 }
 .icon-dl-visa .path2:before {
-  content: "\ec2e";
+  content: "\ec30";
   margin-left: -1em;
   color: rgb(228, 228, 228);
 }
 .icon-dl-visa .path3:before {
-  content: "\ec2f";
+  content: "\ec31";
   margin-left: -1em;
   color: rgb(26, 42, 223);
 }
 .icon-dl-web-detection:before {
-  content: "\ec30";
-}
-.icon-dl-window:before {
-  content: "\ec31";
-}
-.icon-dl-workflows:before {
   content: "\ec32";
 }
-.icon-dl-workflows-outline:before {
+.icon-dl-window:before {
   content: "\ec33";
 }
-.icon-dl-xml-file:before {
+.icon-dl-workflows:before {
   content: "\ec34";
 }
-.icon-dl-youtube:before {
+.icon-dl-workflows-outline:before {
   content: "\ec35";
 }
-.icon-dl-zoom-in:before {
+.icon-dl-xml-file:before {
   content: "\ec36";
 }
-.icon-dl-zoom-out:before {
+.icon-dl-youtube:before {
   content: "\ec37";
+}
+.icon-dl-zoom-in:before {
+  content: "\ec38";
+}
+.icon-dl-zoom-out:before {
+  content: "\ec39";
 }
