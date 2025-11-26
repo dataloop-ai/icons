@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dl-icons';
-  src:  url('fonts/dl-icons.eot?18xzdn');
-  src:  url('fonts/dl-icons.eot?18xzdn#iefix') format('embedded-opentype'),
-    url('fonts/dl-icons.ttf?18xzdn') format('truetype'),
-    url('fonts/dl-icons.woff?18xzdn') format('woff'),
-    url('fonts/dl-icons.svg?18xzdn#dl-icons') format('svg');
+  src:  url('fonts/dl-icons.eot?7ui2v4');
+  src:  url('fonts/dl-icons.eot?7ui2v4#iefix') format('embedded-opentype'),
+    url('fonts/dl-icons.ttf?7ui2v4') format('truetype'),
+    url('fonts/dl-icons.woff?7ui2v4') format('woff'),
+    url('fonts/dl-icons.svg?7ui2v4#dl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -479,6 +479,9 @@
 }
 .icon-dl-box:before {
   content: "\e976";
+}
+.icon-dl-box2:before {
+  content: "\ec51";
 }
 .icon-dl-brand-dell:before {
   content: "\e977";
@@ -2537,6 +2540,9 @@
 }
 .icon-dl-roi-filled:before {
   content: "\eba1";
+}
+.icon-dl-roi-filled2:before {
+  content: "\ec52";
 }
 .icon-dl-rotate:before {
   content: "\eba2";
