@@ -5,6 +5,7 @@ git config pull.rebase false
 git pull
 
 sleep 0.5
+nvm use 16
 npm install @dataloop-ai/components@latest
 npm i
 
