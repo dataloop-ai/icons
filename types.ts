@@ -52,4 +52,5 @@ export enum COLORED_ICONS {
     MONGO_DB = 'mongodb',
     DATABRICKS = 'databricks',
     OPENCV = 'opencv',
+    DELL = 'dell',
 }
