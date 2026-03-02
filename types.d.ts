@@ -52,5 +52,6 @@ export declare enum COLORED_ICONS {
     MONGO_DB = "mongodb",
     DATABRICKS = "databricks",
     OPENCV = "opencv",
-    DELL = "dell"
+    DELL = "dell",
+    KUBERNETES_LOGO = "kubernetes_logo"
 }
