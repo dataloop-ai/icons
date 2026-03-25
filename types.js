@@ -54,5 +54,5 @@ export var COLORED_ICONS;
     COLORED_ICONS["DATABRICKS"] = "databricks";
     COLORED_ICONS["OPENCV"] = "opencv";
     COLORED_ICONS["DELL"] = "dell";
-    COLORED_ICONS["KUBERNETES_LOGO"] = "kubernetes_logo";
+    COLORED_ICONS["KUBERNETES_LOGO"] = "kubernetes-logo";
 })(COLORED_ICONS || (COLORED_ICONS = {}));
