@@ -2,7 +2,7 @@
 
 
 # cleans all svg file names
-# ./cleanup.sh
+./cleanup.sh
 
 sleep 0.5
 
