@@ -54,4 +54,7 @@ export enum COLORED_ICONS {
     OPENCV = 'opencv',
     DELL = 'dell',
     KUBERNETES_LOGO = 'kubernetes-logo',
+    POSTGRES = 'postgres',
+    NOTION = 'notion',
+    ELASTICSEARCH = 'elasticsearch',
 }

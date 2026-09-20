@@ -53,5 +53,8 @@ export declare enum COLORED_ICONS {
     DATABRICKS = "databricks",
     OPENCV = "opencv",
     DELL = "dell",
-    KUBERNETES_LOGO = "kubernetes-logo"
+    KUBERNETES_LOGO = "kubernetes-logo",
+    POSTGRES = "postgres",
+    NOTION = "notion",
+    ELASTICSEARCH = "elasticsearch"
 }

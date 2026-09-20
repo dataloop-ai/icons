@@ -55,4 +55,7 @@ export var COLORED_ICONS;
     COLORED_ICONS["OPENCV"] = "opencv";
     COLORED_ICONS["DELL"] = "dell";
     COLORED_ICONS["KUBERNETES_LOGO"] = "kubernetes-logo";
+    COLORED_ICONS["POSTGRES"] = "postgres";
+    COLORED_ICONS["NOTION"] = "notion";
+    COLORED_ICONS["ELASTICSEARCH"] = "elasticsearch";
 })(COLORED_ICONS || (COLORED_ICONS = {}));
