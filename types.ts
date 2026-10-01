@@ -57,4 +57,8 @@ export enum COLORED_ICONS {
     POSTGRES = 'postgres',
     NOTION = 'notion',
     ELASTICSEARCH = 'elasticsearch',
+    GROQ = 'groq',
+    OPEN_METADATA = 'open-metadata',
+    OPENROUTER = 'openrouter',
+    TOGETHER_AI = 'together-ai'
 }

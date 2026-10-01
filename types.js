@@ -58,4 +58,8 @@ export var COLORED_ICONS;
     COLORED_ICONS["POSTGRES"] = "postgres";
     COLORED_ICONS["NOTION"] = "notion";
     COLORED_ICONS["ELASTICSEARCH"] = "elasticsearch";
+    COLORED_ICONS["GROQ"] = "groq";
+    COLORED_ICONS["OPEN_METADATA"] = "open-metadata";
+    COLORED_ICONS["OPENROUTER"] = "openrouter";
+    COLORED_ICONS["TOGETHER_AI"] = "together-ai";
 })(COLORED_ICONS || (COLORED_ICONS = {}));

@@ -56,5 +56,9 @@ export declare enum COLORED_ICONS {
     KUBERNETES_LOGO = "kubernetes-logo",
     POSTGRES = "postgres",
     NOTION = "notion",
-    ELASTICSEARCH = "elasticsearch"
+    ELASTICSEARCH = "elasticsearch",
+    GROQ = "groq",
+    OPEN_METADATA = "open-metadata",
+    OPENROUTER = "openrouter",
+    TOGETHER_AI = "together-ai"
 }
